@@ -384,21 +384,21 @@
 /*前髪 その14*/
 .hair-front14{
     position: absolute;
-    top: 847px;
+    top: 869px;
     left: 1030px;
     width: 229px;
-    height: 293px;
+    height: 267px;
     border-radius: 50%;
     transform: rotate(-40deg);
 }
 .hair-front14 .line{
     position: absolute;
-    top: -307px;
-    left: -177px;
-    width: 242px;
-    height: 707px;
+    top: -210px;
+    left: -55px;
+    width: 127px;
+    height: 465px;
     border-width: 5px;
-    transform: rotate(-2deg);
+    transform: rotate(-5deg);
 }
 
 /*前髪 その15*/
@@ -425,7 +425,7 @@
 .hair-front16{
     position: absolute;
     top: 785px;
-    left: 990px;
+    left: 989px;
     width: 342px;
     height: 343px;
     border-radius: 50%;
@@ -459,6 +459,166 @@
     height: 710px;
     border-width: 5px;
     transform: rotate(-5deg);
+}
+
+/*サイド髪 その2*/
+.hair-side-2{
+    position: absolute;
+    top: 890px;
+    left: 673px;
+    width: 381px;
+    height: 165px;
+    border-radius: 50%;
+    transform: rotate(55deg);
+}
+.hair-side-2 .line{
+    position: absolute;
+    top: -218px;
+    left: -32px;
+    width: 321px;
+    height: 837px;
+    border-width: 5px;
+    transform: rotate(92deg);
+}
+
+/*サイド髪 その3*/
+.hair-side-3{
+    position: absolute;
+    top: 1008px;
+    left: 851px;
+    width: 181px;
+    height: 121px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-3 .line{
+    position: absolute;
+    top: -123px;
+    left: -221px;
+    width: 321px;
+    height: 585px;
+    border-width: 5px;
+    transform: rotate(-36deg);
+}
+
+/*サイド髪 その4*/
+.hair-side-4{
+    position: absolute;
+    top: 388px;
+    left: 594px;
+    width: 129px;
+    height: 719px;
+    border-radius: 50%;
+    transform: rotate(-39deg);
+}
+.hair-side-4 .line{
+    position: absolute;
+    top: -3px;
+    left: 52px;
+    width: 474px;
+    height: 1338px;
+    border-width: 5px;
+    transform: rotate(-8deg);
+}
+
+/*サイド髪 その5*/
+.hair-side-5{
+    position: absolute;
+    top: 110px;
+    left: 413px;
+    width: 225px;
+    height: 409px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-5 .line{
+    position: absolute;
+    top: 47px;
+    left: 99px;
+    width: 174px;
+    height: 445px;
+    border-width: 5px;
+    transform: rotate(5deg);
+}
+
+/*サイド髪 その6*/
+.hair-side-6{
+    position: absolute;
+    top: 1035px;
+    left: 700px;
+    width: 428px;
+    height: 92px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-6 .line{
+    position: absolute;
+    top: -107px;
+    left: -95px;
+    width: 321px;
+    height: 710px;
+    border-width: 5px;
+    transform: rotate(0deg);
+}
+
+/*サイド髪 その7*/
+.hair-side-7{
+    position: absolute;
+    top: 811px;
+    left: 641px;
+    width: 227px;
+    height: 319px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-7 .line{
+    position: absolute;
+    top: -107px;
+    left: -240px;
+    width: 321px;
+    height: 710px;
+    border-width: 5px;
+    transform: rotate(-29deg);
+}
+
+/*サイド髪 その8*/
+.hair-side-8{
+    position: absolute;
+    top: 488px;
+    left: 417px;
+    width: 350px;
+    height: 437px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-8 .line{
+    position: absolute;
+    top: -188px;
+    left: 216px;
+    width: 384px;
+    height: 1003px;
+    border-width: 5px;
+    transform: rotate(-40deg);
+}
+
+/*サイド髪 その9*/
+.hair-side-9{
+    position: absolute;
+    top: 958px;
+    left: 562px;
+    width: 170px;
+    height: 181px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-9 .line{
+    position: absolute;
+    top: -218px;
+    left: -402px;
+    width: 458px;
+    height: 710px;
+    border-width: 5px;
+    transform: rotate(57deg);
 }
 
 /*左側の目の右側アイホール*/
