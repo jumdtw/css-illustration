@@ -1,0 +1,1346 @@
+:root{
+    --sitagaki-color:red;
+}
+
+/* これでグラデーションをつける filter: blur(20px); */
+
+.sitagaki{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity:0.8;
+    width: 2000px;
+}
+
+.hid{
+    overflow: hidden;
+}
+
+.line{
+    border-style: solid;
+    border-color: #000;
+    border-radius: 50%;
+}
+
+/*鼻*/
+.nose-1{
+    position: absolute;
+    top: 606px;
+    left: 1187px;
+    width: 31px;
+    height: 30px;
+    border-radius: 50%;
+}
+.nose-1 div{
+    position: absolute;
+    top: -11px;
+    left: 17px;
+    width: 20px;
+    height: 20px;
+    border-width: 5px;
+    box-shadow: -3px 3px;
+    border-radius: 50%;
+}
+
+/*下あご 左*/
+.face-ago-left{
+    position: absolute;
+    top: -920px;
+    left: 925px;
+    width: 518px;
+    height: 2076px;
+    border-radius: 50%;
+}
+.face-ago-left .line{
+    /* background-color: #ffffe5; */
+    position: absolute;
+    top: -217px;
+    left: -550px;
+    width: 1695px;
+    height: 2076px;
+    border-width: 5px;
+}
+
+
+/*下あご 右*/
+.face-ago-right{
+    position: absolute;
+    top: 739px;
+    left: 1214px;
+    width: 676px;
+    height: 226px;
+    border-radius: 50%;
+}
+.face-ago-right .line{
+    /* background-color: #ffffe5; */
+    position: absolute;
+    top: -246px;
+    left: -429px;
+    width: 850px;
+    height: 438px;
+    border-width: 5px;
+    transform: rotate(116deg);
+}
+
+/*頬 右下 1*/
+.face-hohoright-1{
+    position: absolute;
+    top: 546px;
+    left: 1255px;
+    width: 214px;
+    height: 258px;
+    border-radius: 50%;
+}
+
+.face-hohoright-1 .line{
+    /*background-color:#ffffe5;*/
+    position: absolute;
+    top: -41px;
+    left: -8px;
+    width: 200px;
+    height: 323px;
+    border-width: 5px;
+}
+
+/*頬 右下 2*/
+.face-hohoright-2{
+    position: absolute;
+    top: 382px;
+    left: 1314px;
+    width: 129px;
+    height: 356px;
+    border-radius: 50%;
+    transform: rotate(-5deg);
+}
+
+.face-hohoright-2 .line{
+    position: absolute;
+    top: -107px;
+    left: 109px;
+    width: 200px;
+    height: 506px;
+    border-width: 5px;
+    transform: rotate(-12deg);
+}
+
+/*前髪 その1*/
+.hair-front1{
+    position: absolute;
+    top: 254px;
+    left: 743px;
+    width: 583px;
+    height: 303px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-front1 .line{
+    position: absolute;
+    top: -140px;
+    left: -25px;
+    width: 638px;
+    height: 293px;
+    border-width: 5px;
+    transform: rotate(-5deg);
+}
+
+/*前髪 その2*/
+.hair-front2{
+    position: absolute;
+    top: 157px;
+    left: 539px;
+    width: 283px;
+    height: 220px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-front2 .line{
+    position: absolute;
+    top: -124px;
+    left: 111px;
+    width: 659px;
+    height: 418px;
+    border-width: 5px;
+    transform: rotate(21deg);
+}
+
+/*前髪 その3*/
+.hair-front3{
+    position: absolute;
+    top: 338px;
+    left: 714px;
+    width: 163px;
+    height: 385px;
+    border-radius: 50%;
+    transform: rotate(-23deg);
+}
+.hair-front3 .line{
+    position: absolute;
+    top: -49px;
+    left: -1176px;
+    width: 2059px;
+    height: 418px;
+    border-width: 5px;
+    transform: rotate(107deg);
+}
+
+/*前髪 その4*/
+.hair-front4{
+    position: absolute;
+    top: 331px;
+    left: 775px;
+    width: 156px;
+    height: 668px;
+    border-radius: 50%;
+    transform: rotate(-38deg);
+}
+.hair-front4 .line{
+    position: absolute;
+    top: 624px;
+    left: -605px;
+    width: 1857px;
+    height: 448px;
+    border-width: 5px;
+    transform: rotate(77deg);
+}
+
+/*前髪 その5*/
+.hair-front5{
+    position: absolute;
+    top: 153px;
+    left: 681px;
+    width: 180px;
+    height: 668px;
+    border-radius: 50%;
+    transform: rotate(-32deg);
+}
+.hair-front5 .line{
+    position: absolute;
+    top: 547px;
+    left: -530px;
+    width: 1857px;
+    height: 771px;
+    border-width: 5px;
+    transform: rotate(-101deg);
+}
+
+/*前髪 その6*/
+.hair-front6{
+    position: absolute;
+    top: 153px;
+    left: 750px;
+    width: 397px;
+    height: 668px;
+    border-radius: 50%;
+}
+.hair-front6 .line{
+    position: absolute;
+    top: -591px;
+    left: -268px;
+    width: 1857px;
+    height: 771px;
+    border-width: 5px;
+}
+
+/*前髪 その7*/
+.hair-front7{
+    position: absolute;
+    top: 193px;
+    left: 1147px;
+    width: 296px;
+    height: 668px;
+    border-radius: 50%;
+    transform: rotate(-21deg);
+}
+.hair-front7 .line{
+    position: absolute;
+    top: -31px;
+    left: -1214px;
+    width: 1857px;
+    height: 771px;
+    border-width: 5px;
+    transform: rotate(19deg);
+}
+
+/*前髪 その8*/
+.hair-front8{
+    position: absolute;
+    top: 213px;
+    left: 699px;
+    width: 259px;
+    height: 68px;
+    border-radius: 50%;
+    transform: rotate(24deg);
+}
+.hair-front8 .line{
+    position: absolute;
+    top: -34px;
+    left: 0px;
+    width: 340px;
+    height: 71px;
+    border-width: 5px;
+    transform: rotate(-4deg);
+}
+
+/*前髪 その9*/
+.hair-front9{
+    position: absolute;
+    top: 121px;
+    left: 796px;
+    width: 503px;
+    height: 83px;
+    border-radius: 50%;
+    transform: rotate(18deg);
+}
+.hair-front9 .line{
+    position: absolute;
+    top: 11px;
+    left: -12px;
+    width: 584px;
+    height: 271px;
+    border-width: 5px;
+    transform: rotate(-7deg);
+}
+
+/*前髪 その10*/
+.hair-front10{
+    position: absolute;
+    top: 73px;
+    left: 963px;
+    width: 344px;
+    height: 83px;
+    border-radius: 50%;
+    transform: rotate(35deg);
+}
+.hair-front10 .line{
+    position: absolute;
+    top: 12px;
+    left: -55px;
+    width: 515px;
+    height: 271px;
+    border-width: 5px;
+    transform: rotate(10deg);
+}
+
+/*前髪 その11*/
+.hair-front11{
+    position: absolute;
+    top: 318px;
+    left: 1185px;
+    width: 344px;
+    height: 83px;
+    border-radius: 50%;
+    transform: rotate(59deg);
+}
+.hair-front11 .line{
+    position: absolute;
+    top: 24px;
+    left: -87px;
+    width: 518px;
+    height: 114px;
+    border-width: 5px;
+    transform: rotate(-1deg);
+}
+
+/*前髪 その12*/
+.hair-front12{
+    position: absolute;
+    top: 492px;
+    left: 1336px;
+    width: 165px;
+    height: 554px;
+    border-radius: 50%;
+    transform: rotate(6deg);
+}
+.hair-front12 .line{
+    position: absolute;
+    top: -61px;
+    left: -95px;
+    width: 237px;
+    height: 629px;
+    border-width: 5px;
+    transform: rotate(-5deg);
+}
+
+/*前髪 その13*/
+.hair-front13{
+    position: absolute;
+    top: 459px;
+    left: 1300px;
+    width: 229px;
+    height: 593px;
+    border-radius: 50%;
+    transform: rotate(9deg);
+}
+.hair-front13 .line{
+    position: absolute;
+    top: -25px;
+    left: -35px;
+    width: 242px;
+    height: 629px;
+    border-width: 5px;
+    transform: rotate(-2deg);
+}
+
+/*前髪 その14*/
+.hair-front14{
+    position: absolute;
+    top: 847px;
+    left: 1030px;
+    width: 229px;
+    height: 293px;
+    border-radius: 50%;
+    transform: rotate(-40deg);
+}
+.hair-front14 .line{
+    position: absolute;
+    top: -307px;
+    left: -177px;
+    width: 242px;
+    height: 707px;
+    border-width: 5px;
+    transform: rotate(-2deg);
+}
+
+/*前髪 その15*/
+.hair-front15{
+    position: absolute;
+    top: 539px;
+    left: 554px;
+    width: 402px;
+    height: 603px;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+}
+.hair-front15 .line{
+    position: absolute;
+    top: -151px;
+    left: 304px;
+    width: 495px;
+    height: 1162px;
+    border-width: 5px;
+    transform: rotate(-18deg);
+}
+
+/*前髪 その16*/
+.hair-front16{
+    position: absolute;
+    top: 785px;
+    left: 990px;
+    width: 342px;
+    height: 343px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-front16 .line{
+    position: absolute;
+    top: 166px;
+    left: -371px;
+    width: 608px;
+    height: 362px;
+    border-width: 5px;
+    transform: rotate(43deg);
+}
+
+/*サイド髪 その1*/
+.hair-side-1{
+    position: absolute;
+    top: 965px;
+    left: 852px;
+    width: 428px;
+    height: 165px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-1 .line{
+    position: absolute;
+    top: -36px;
+    left: -56px;
+    width: 321px;
+    height: 710px;
+    border-width: 5px;
+    transform: rotate(-5deg);
+}
+
+/*左側の目の右側アイホール*/
+.face-lefteyehole-right{
+    position: absolute;
+    top: 547px;
+    left: 944px;
+    width: 273px;
+    height: 134px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyehole-right .line{
+    position: absolute;
+    top: -6px;
+    left: -187px;
+    width: 253px;
+    height: 268px;
+    border-width: 5px;
+    transform: rotate(-5deg);
+}
+
+/*左側の目の左側アイホール*/
+.face-lefteyehole-left{
+    position: absolute;
+    top: 631px;
+    left: 739px;
+    width: 274px;
+    height: 139px;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+}
+.face-lefteyehole-left .line{
+    position: absolute;
+    top: -55px;
+    left: 163px;
+    width: 228px;
+    height: 218px;
+    border-width: 5px;
+    transform: rotate(-18deg);
+}
+
+/*左側の目の下側アイホール*/
+.face-lefteyehole-bottom{
+    position: absolute;
+    top: 693px;
+    left: 881px;
+    width: 273px;
+    height: 84px;
+    border-radius: 50%;
+    transform: rotate(52deg);
+}
+.face-lefteyehole-bottom .line{
+    position: absolute;
+    top: -105px;
+    left: -47px;
+    width: 129px;
+    height: 268px;
+    border-width: 5px;
+    transform: rotate(0deg);
+}
+
+/*左側の目のアイライン 1*/
+.face-lefteyeline-1{
+    position: absolute;
+    top: 487px;
+    left: 940px;
+    width: 281px;
+    height: 210px;
+    border-radius: 50%;
+}
+.face-lefteyeline-1 div{
+    position: absolute;
+    top: 88px;
+    left: -172px;
+    width: 313px;
+    height: 66px;
+    border-width: 5px;
+    box-shadow: -34px -13px;
+    border-radius: 50%;
+    transform: rotate(-3deg);
+}
+
+/*左側の目のアイライン 2*/
+.face-lefteyeline-2{
+    position: absolute;
+    top: 490px;
+    left: 811px;
+    width: 158px;
+    height: 210px;
+    border-radius: 50%;
+    transform: rotate(-28deg);
+}
+.face-lefteyeline-2 div{
+    position: absolute;
+    top: 111px;
+    left: -29px;
+    width: 211px;
+    height: 127px;
+    border-width: 5px;
+    box-shadow: 0px -19px;
+    border-radius: 50%;
+    transform: rotate(-8deg);
+}
+
+/*左側の目のアイライン 3*/
+.face-lefteyeline-3{
+    position: absolute;
+    top: 487px;
+    left: 940px;
+    width: 281px;
+    height: 210px;
+    border-radius: 50%;
+}
+.face-lefteyeline-3 div{
+    position: absolute;
+    top: 93px;
+    left: -172px;
+    width: 313px;
+    height: 66px;
+    border-width: 5px;
+    box-shadow: -34px -13px;
+    border-radius: 50%;
+    transform: rotate(-6deg);
+}
+
+/*左側の目のアイライン 4*/
+.face-lefteyeline-4{
+    position: absolute;
+    top: 487px;
+    left: 940px;
+    width: 281px;
+    height: 210px;
+    border-radius: 50%;
+}
+.face-lefteyeline-4 div{
+    position: absolute;
+    top: 90px;
+    left: -172px;
+    width: 313px;
+    height: 66px;
+    border-width: 5px;
+    box-shadow: -34px -13px;
+    border-radius: 50%;
+    transform: rotate(-2deg);
+}
+
+/*左側の目のアイライン 5*/
+.face-lefteyeline-5{
+    position: absolute;
+    top: 475px;
+    left: 925px;
+    width: 216px;
+    height: 104px;
+    transform: rotate(-5deg);
+    border-radius: 50%;
+}
+.face-lefteyeline-5 div{
+    position: absolute;
+    top: 90px;
+    left: -172px;
+    width: 313px;
+    height: 66px;
+    border-width: 5px;
+    box-shadow: -34px -13px;
+    border-radius: 50%;
+    transform: rotate(-2deg);
+}
+
+/*左側の目のアイライン 6*/
+.face-lefteyeline-6{
+    position: absolute;
+    top: 515px;
+    left: 1033px;
+    width: 65px;
+    height: 284px;
+    border-radius: 50%;
+    transform: rotate(-35deg);
+}
+.face-lefteyeline-6 .line{
+    position: absolute;
+    top: 25px;
+    left: -208px;
+    width: 363px;
+    height: 290px;
+    border-width: 3px;
+    transform: rotate(239deg);
+}
+
+/*左側の目のアイライン 7*/
+.face-lefteyeline-7{
+    position: absolute;
+    top: 480.5px;
+    left: 937px;
+    width: 75px;
+    height: 92px;
+    transform: rotate(-6deg);
+    border-radius: 50%;
+}
+.face-lefteyeline-7 div{
+    position: absolute;
+    top: 90px;
+    left: -172px;
+    width: 313px;
+    height: 66px;
+    border-width: 5px;
+    box-shadow: -34px -13px;
+    border-radius: 50%;
+    transform: rotate(-2deg);
+}
+
+/*左側の目のアイライン 8*/
+.face-lefteyeline-8{
+    position: absolute;
+    top: 496px;
+    left: 817px;
+    width: 161px;
+    height: 210px;
+    border-radius: 50%;
+    transform: rotate(-28deg);
+}
+.face-lefteyeline-8 div{
+    position: absolute;
+    top: 109px;
+    left: -29px;
+    width: 211px;
+    height: 127px;
+    border-width: 5px;
+    box-shadow: 0px -19px;
+    border-radius: 50%;
+    transform: rotate(-12deg);
+}
+
+/*左側の目のアイライン 9*/
+.face-lefteyeline-9{
+    position: absolute;
+    top: 601.5px;
+    left: 819px;
+    width: 40px;
+    height: 123px;
+    border-radius: 50%;
+    transform: rotate(
+-83deg);
+}
+.face-lefteyeline-9 div{
+    position: absolute;
+    top: 65px;
+    left: -55px;
+    width: 211px;
+    height: 75px;
+    border-width: 5px;
+    box-shadow: 0px -19px;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+
+/*左側の目のアイライン 10*/
+.face-lefteyeline-10{
+    position: absolute;
+    top: 634px;
+    left: 757px;
+    width: 73px;
+    height: 74px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyeline-10 div{
+    position: absolute;
+    top: -29px;
+    left: -11px;
+    width: 100px;
+    height: 75px;
+    border-width: 5px;
+    box-shadow: -18px -20px;
+    border-radius: 50%;
+    transform: rotate(-231deg);
+}
+
+/*左側の目のアイライン 11*/
+.face-lefteyeline-11{
+    position: absolute;
+    top: 653px;
+    left: 815px;
+    width: 123px;
+    height: 124px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyeline-11 div{
+    position: absolute;
+    top: 16px;
+    left: 21px;
+    width: 100px;
+    height: 39px;
+    border-width: 5px;
+    box-shadow: 16px -8px;
+    border-radius: 50%;
+    transform: rotate(-140deg);
+}
+
+/*左側の目のアイライン 12*/
+.face-lefteyeline-12{
+    position: absolute;
+    top: 655px;
+    left: 815px;
+    width: 123px;
+    height: 124px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyeline-12 div{
+    position: absolute;
+    top: -30px;
+    left: -44px;
+    width: 234px;
+    height: 81px;
+    border-width: 5px;
+    box-shadow: 50px -12px;
+    border-radius: 50%;
+    transform: rotate(-142deg);
+}
+
+/*左側の目のアイライン(二重)  8 */
+.face-lefteyeline-13{
+    position: absolute;
+    top: 403px;
+    left: 874px;
+    width: 129px;
+    height: 356px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyeline-13 .line{
+    position: absolute;
+    top: 135px;
+    left: -119px;
+    width: 451px;
+    height: 418px;
+    border-width: 4px;
+    transform: rotate(0deg);
+}
+
+/*左側の目の瞳孔 1*/
+.face-lefteyehole-center1{
+    position: absolute;
+    top: 292px;
+    left: 620px;
+    width: 471px;
+    height: 250px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyehole-center1 .line{
+    position: absolute;
+    top: 308px;
+    left: 309px;
+    width: 28px;
+    height: 55px;
+    border-width: 3px;
+    transform: rotate(-32deg);
+}
+
+/*左側の目の瞳孔 2*/
+.face-lefteyehole-center2{
+    position: absolute;
+    top: 578px;
+    left: 935px;
+    width: 78px;
+    height: 198px;
+    border-radius: 50%;
+    transform: rotate(-33deg);
+}
+.face-lefteyehole-center2 .line{
+    position: absolute;
+    top: -54px;
+    left: 5px;
+    width: 62px;
+    height: 139px;
+    border-width: 4px;
+    transform: rotate(0deg);
+}
+
+/*左側の目のまつ毛 1*/
+.face-lefteyelashes-1{
+    position: absolute;
+    top: 725px;
+    left: 903px;
+    width: 15px;
+    height: 16px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyelashes-1 .line{
+    position: absolute;
+    top: -6px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    transform: rotate(0deg);
+}
+
+/*左側の目のまつ毛 2*/
+.face-lefteyelashes-2{
+    position: absolute;
+    top: 729px;
+    left: 924px;
+    width: 15px;
+    height: 13px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyelashes-2 .line{
+    position: absolute;
+    top: -10px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    transform: rotate(0deg);
+}
+
+/*左側の目のまつ毛 3*/
+.face-lefteyelashes-3{
+    position: absolute;
+    top: 727px;
+    left: 939px;
+    width: 15px;
+    height: 12px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-lefteyelashes-3 .line{
+    position: absolute;
+    top: -10px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    transform: rotate(0deg);
+}
+
+/*右側の目の右側アイホール*/
+.face-righteyehole-right{
+    position: absolute;
+    top: 292px;
+    left: 1279px;
+    width: 471px;
+    height: 250px;
+    border-radius: 50%;
+    transform: rotate(166deg);
+}
+.face-righteyehole-right .line{
+    position: absolute;
+    top: -6px;
+    left: 420px;
+    width: 253px;
+    height: 268px;
+    border-width: 5px;
+    transform: rotate(-5deg);
+}
+
+/*右側の目の左側アイホール*/
+.face-righteyehole-left{
+    position: absolute;
+    top: 414px;
+    left: 1048px;
+    width: 184px;
+    height: 315px;
+    border-radius: 50%;
+    transform: rotate(57deg);
+}
+.face-righteyehole-left .line{
+    position: absolute;
+    top: -44px;
+    left: 7px;
+    width: 150px;
+    height: 75px;
+    transform: rotate(8deg);
+    border-width: 5px;
+}
+
+/*右側の目の下側アイホール 1*/
+.face-righteyehole-bottom{
+    position: absolute;
+    top: 512px;
+    left: 1285px;
+    width: 130px;
+    height: 315px;
+    border-radius: 50%;
+    transform: rotate(161deg);
+}
+.face-righteyehole-bottom .line{
+    position: absolute;
+    top: 293px;
+    left: -82px;
+    width: 302px;
+    height: 210px;
+    border-width: 5px;
+}
+
+/*右側の目の瞳孔 1*/
+.face-righteyehole-center1{
+    position: absolute;
+    top: 438px;
+    left: 1250px;
+    --face-righteyehole-center1-w: 23px;
+    --face-righteyehole-center1-h: 53px;
+    transform: rotate(-24deg);
+    height: 2px;
+}
+.face-righteyehole-center1 div{
+    width: var(--face-righteyehole-center1-w);
+    height: var(--face-righteyehole-center1-h);
+    border: solid 3px #000;
+    border-radius: 50%;
+}
+
+/*右側の目の瞳孔 2*/
+.face-righteyehole-center2{
+    position: absolute;
+    top: 430px;
+    left: 1268px;
+    width: 130px;
+    height: 315px;
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+.face-righteyehole-center2 div{
+    position: absolute;
+    top: -68px;
+    left: 32px;
+    width: 57px;
+    height: 128px;
+    border-radius: 50%;
+    border-width: 4px;
+}
+
+/*右側の目のアイライン 1*/
+.face-righteyeline-1{
+    position: absolute;
+    top: 317px;
+    left: 1065px;
+    width: 281px;
+    height: 210px;
+    border-radius: 50%;
+}
+.face-righteyeline-1 div{
+    position: absolute;
+    top: 84px;
+    left: 140px;
+    width: 302px;
+    height: 210px;
+    border-width: 5px;
+    box-shadow: 5px -25px;
+    border-radius: 50%;
+    transform: rotate(8deg);
+}
+
+/*右側の目のアイライン 2*/
+.face-righteyeline-2{
+    position: absolute;
+    top: 421px;
+    left: 1055px;
+    width: 281px;
+    height: 210px;
+    border-radius: 50%;
+}
+.face-righteyeline-2 div{
+    position: absolute;
+    top: -14px;
+    left: 148px;
+    width: 221px;
+    height: 177px;
+    border-width: 5px;
+    box-shadow: 8px -22px;
+    border-radius: 50%;
+    transform: rotate(-24deg);
+}
+
+/*右側の目のアイライン 3 */
+.face-righteyeline-3{
+    position: absolute;
+    top: 299px;
+    left: 1100px;
+    width: 281px;
+    height: 625px;
+    border-radius: 50%;
+}
+.face-righteyeline-3 div{
+    position: absolute;
+    top: 106px;
+    left: 104px;
+    width: 221px;
+    height: 177px;
+    border-width: 5px;
+    box-shadow: 8px -22px;
+    border-radius: 50%;
+    transform: rotate(-27deg);
+}
+
+/*右側の目のアイライン 3 */
+.face-righteyeline-4{
+    position: absolute;
+    top: 389px;
+    left: 1210px;
+    width: 111px;
+    height: 242px;
+    border-radius: 50%;
+    transform: rotate(-33deg);
+}
+.face-righteyeline-4 .line{
+    position: absolute;
+    top: 39px;
+    left: -82px;
+    width: 302px;
+    height: 210px;
+    border-width: 3px;
+    transform: rotate(-32deg);
+}
+
+/*右側の目のアイライン 5 */
+.face-righteyeline-5{
+    position: absolute;
+    top: 343px;
+    left: 1299px;
+    width: 55px;
+    height: 225px;
+    border-radius: 50%;
+    transform: rotate(19deg);
+}
+.face-righteyeline-5 div{
+    position: absolute;
+    top: 56px;
+    left: -52px;
+    width: 161px;
+    height: 142px;
+    border-width: 5px;
+    box-shadow: -3px -21px;
+    border-radius: 50%;
+    transform: rotate(11deg);
+}
+
+/*右側の目のアイライン 6 */
+.face-righteyeline-6{
+    position: absolute;
+    top: 186px;
+    left: 1333px;
+    width: 125px;
+    height: 225px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-righteyeline-6 div{
+    position: absolute;
+    top: 64px;
+    left: -67px;
+    width: 161px;
+    height: 142px;
+    border-width: 5px;
+    box-shadow: -14px 22px;
+    border-radius: 50%;
+    transform: rotate(9deg);
+}
+
+/*右側の目のアイライン 7 */
+.face-righteyeline-7{
+    position: absolute;
+    top: 381px;
+    left: 1333px;
+    width: 125px;
+    height: 225px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-righteyeline-7 div{
+    position: absolute;
+    top: 32px;
+    left: -99px;
+    width: 198px;
+    height: 75px;
+    border-width: 5px;
+    box-shadow: 49px 12px;
+    border-radius: 50%;
+    transform: rotate(-100deg);
+}
+
+/*右側の目のアイライン(二重)  8 */
+.face-righteyeline-8{
+    position: absolute;
+    top: 332px;
+    left: 1193px;
+    width: 111px;
+    height: 356px;
+    border-radius: 50%;
+    transform: rotate(-6deg);
+}
+.face-righteyeline-8 .line{
+    position: absolute;
+    top: 27px;
+    left: -60px;
+    width: 451px;
+    height: 418px;
+    border-width: 4px;
+    transform: rotate(-56deg);
+}
+
+/*右側の目のまつ毛 1*/
+.face-righteyelashes-1{
+    position: absolute;
+    top: 483px;
+    left: 1368px;
+    width: 10px;
+    height: 19px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-righteyelashes-1 .line{
+    position: absolute;
+    top: 5px;
+    left: -16px;
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    transform: rotate(0deg);
+}
+
+/*右側の目のまつ毛 2*/
+.face-righteyelashes-2{
+    position: absolute;
+    top: 495px;
+    left: 1361px;
+    width: 8px;
+    height: 19px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.face-righteyelashes-2 .line{
+    position: absolute;
+    top: 6px;
+    left: -20px;
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    transform: rotate(0deg);
+}
+
+/*右側の目のまつ毛 3*/
+.face-righteyelashes-3{
+    position: absolute;
+    top: 507px;
+    left: 1351px;
+    width: 8px;
+    height: 19px;
+    border-radius: 50%;
+    transform: rotate(28deg);
+}
+.face-righteyelashes-3 .line{
+    position: absolute;
+    top: 7px;
+    left: -18px;
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    transform: rotate(0deg);
+}
+
+/*口 1*/
+.mouse-1{
+    position: absolute;
+    top: 579px;
+    left: 1130px;
+    width: 163px;
+    height: 284px;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+}
+.mouse-1 .line{
+    position: absolute;
+    top: 105px;
+    left: -20px;
+    width: 194px;
+    height: 268px;
+    border-width: 3px;
+    transform: rotate(-87deg);
+}
+
+/*口 2*/
+.mouse-2{
+    position: absolute;
+    top: 713px;
+    left: 1097px;
+    width: 360px;
+    height: 315px;
+    border-radius: 50%;
+    transform: rotate(-48deg);
+}
+.mouse-2 .line{
+    position: absolute;
+    top: -79px;
+    left: 156px;
+    width: 156px;
+    height: 227px;
+    border-width: 3px;
+    transform: rotate(20deg);
+}
+
+/*右眉 1*/
+.right-mayu-1{
+    position: absolute;
+    top: 270px;
+    left: 1124px;
+    width: 154px;
+    height: 60px;
+    border-radius: 50%;
+    transform: rotate(-16deg);
+}
+.right-mayu-1 .line{
+    position: absolute;
+    top: 2px;
+    left: -40px;
+    width: 230px;
+    height: 147px;
+    border-width: 4px;
+    transform: rotate(0deg);
+}
+/*右眉 2*/
+.right-mayu-2{
+    position: absolute;
+    top: 260px;
+    left: 1126px;
+    width: 134px;
+    height: 73px;
+    border-radius: 50%;
+    transform: rotate(-17deg);
+}
+.right-mayu-2 .line{
+    position: absolute;
+    top: 6px;
+    left: -23px;
+    width: 189px;
+    height: 147px;
+    border-width: 4px;
+    transform: rotate(9deg);
+}
+
+/*左眉 1*/
+.left-mayu-1{
+    position: absolute;
+    top: 444px;
+    left: 772px;
+    width: 159px;
+    height: 35px;
+    border-radius: 50%;
+    transform: rotate(-39deg);
+}
+.left-mayu-1 .line{
+    position: absolute;
+    top: 6px;
+    left: -40px;
+    width: 288px;
+    height: 147px;
+    border-width: 4px;
+    transform: rotate(10deg);
+}
+
+/*左眉 2*/
+.left-mayu-2{
+    position: absolute;
+    top: 423px;
+    left: 790px;
+    width: 122px;
+    height: 51px;
+    border-radius: 50%;
+    transform: rotate(-34deg);
+}
+.left-mayu-2 .line{
+    position: absolute;
+    top: 14px;
+    left: -35px;
+    width: 201px;
+    height: 147px;
+    border-width: 4px;
+    transform: rotate(3deg);
+}
