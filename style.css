@@ -714,7 +714,7 @@
 .hair-side-14 .line{
     position: absolute;
     top: -497px;
-    left: -161px;
+    left: -159px;
     width: 392px;
     height: 855px;
     border-width: 5px;
@@ -1000,6 +1000,126 @@
     height: 254px;
     border-width: 4px;
     transform: rotate(13deg);
+}
+
+/*耳 1*/
+.ear-1{
+    position: absolute;
+    top: 324px;
+    left: 375px;
+    width: 51px;
+    height: 123px;
+    border-radius: 50%;
+    transform: rotate(22deg);
+}
+.ear-1 .line{
+    position: absolute;
+    top: -142px;
+    left: -53px;
+    width: 163px;
+    height: 254px;
+    border-width: 4px;
+    transform: rotate(-120deg);
+}
+
+/*耳 2*/
+.ear-2{
+    position: absolute;
+    top: 238px;
+    left: 111px;
+    width: 303px;
+    height: 123px;
+    border-radius: 50%;
+    transform: rotate(38deg);
+}
+.ear-2 .line{
+    position: absolute;
+    top: -177px;
+    left: -164px;
+    width: 748px;
+    height: 254px;
+    border-width: 4px;
+    transform: rotate(-5deg);
+}
+
+/*耳 3*/
+.ear-3{
+    position: absolute;
+    top: 155px;
+    left: 5px;
+    width: 147px;
+    height: 52px;
+    border-radius: 50%;
+    transform: rotate(38deg);
+}
+.ear-3 .line{
+    position: absolute;
+    top: -237px;
+    left: -164px;
+    width: 549px;
+    height: 254px;
+    border-width: 4px;
+    transform: rotate(0deg);
+}
+
+/*耳 4*/
+.ear-4{
+    position: absolute;
+    top: 97px;
+    left: 23px;
+    width: 23px;
+    height: 37px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.ear-4 .line{
+    position: absolute;
+    top: -108px;
+    left: 203px;
+    width: 56px;
+    height: 560px;
+    border-width: 5px;
+    transform: rotate(-55deg);
+}
+
+/*耳 5*/
+.ear-5{
+    position: absolute;
+    top: 119px;
+    left: 37px;
+    width: 384px;
+    height: 37px;
+    border-radius: 50%;
+    transform: rotate(8deg);
+}
+.ear-5 .line{
+    position: absolute;
+    top: -94px;
+    left: -87px;
+    width: 1033px;
+    height: 98px;
+    border-width: 5px;
+    transform: rotate(-4deg);
+}
+
+/*耳 6*/
+.ear-6{
+    position: absolute;
+    top: 139px;
+    left: 411px;
+    width: 67px;
+    height: 65px;
+    border-radius: 50%;
+    transform: rotate(8deg);
+}
+.ear-6 .line{
+    position: absolute;
+    top: 28px;
+    left: -64px;
+    width: 162px;
+    height: 98px;
+    border-width: 4px;
+    transform: rotate(18deg);
 }
 
 /*左側の目の右側アイホール*/
