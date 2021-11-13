@@ -681,6 +681,327 @@
     transform: rotate(2deg);
 }
 
+/*サイド髪 その13*/
+.hair-side-13{
+    position: absolute;
+    top: 618px;
+    left: 1598px;
+    width: 364px;
+    height: 517px;
+    border-radius: 50%;
+    transform: rotate(-18deg);
+}
+.hair-side-13 .line{
+    position: absolute;
+    top: -186px;
+    left: 34px;
+    width: 424px;
+    height: 782px;
+    border-width: 5px;
+    transform: rotate(-7deg);
+}
+
+/*サイド髪 その14*/
+.hair-side-14{
+    position: absolute;
+    top: 808px;
+    left: 1696px;
+    width: 311px;
+    height: 372px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-14 .line{
+    position: absolute;
+    top: -497px;
+    left: -161px;
+    width: 392px;
+    height: 855px;
+    border-width: 5px;
+    transform: rotate(-33deg);
+
+}
+
+/*サイド髪 その15*/
+.hair-side-15{
+    position: absolute;
+    top: 895px;
+    left: 1788px;
+    width: 222px;
+    height: 372px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-15 .line{
+    position: absolute;
+    top: -214px;
+    left: -49px;
+    width: 239px;
+    height: 495px;
+    border-width: 5px;
+    transform: rotate(-61deg);
+}
+
+/*サイド髪 その16*/
+.hair-side-16{
+    position: absolute;
+    top: 895px;
+    left: 1924px;
+    width: 88px;
+    height: 372px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-16 .line{
+    position: absolute;
+    top: -243px;
+    left: -74px;
+    width: 239px;
+    height: 495px;
+    border-width: 5px;
+    transform: rotate(-75deg);
+}
+
+/*サイド髪 その17*/
+.hair-side-17{
+    position: absolute;
+    top: 861px;
+    left: 1925px;
+    width: 86px;
+    height: 372px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.hair-side-17 .line{
+    position: absolute;
+    top: -165px;
+    left: -74px;
+    width: 249px;
+    height: 370px;
+    border-width: 4px;
+    transform: rotate(-108deg);
+}
+
+/*サイド髪 その18*/
+.hair-side-18{
+    position: absolute;
+    top: -23px;
+    left: 615px;
+    width: 86px;
+    height: 241px;
+    border-radius: 50%;
+    transform: rotate(49deg);
+}
+.hair-side-18 .line{
+    position: absolute;
+    top: -167px;
+    left: 24px;
+    width: 281px;
+    height: 596px;
+    border-width: 4px;
+    transform: rotate(-2deg);
+}
+
+/*リボン 1*/
+.ribbon-1{
+    position: absolute;
+    top: 94px;
+    left: 502px;
+    width: 86px;
+    height: 109px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.ribbon-1 .line{
+    position: absolute;
+    top: -111px;
+    left: -217px;
+    width: 281px;
+    height: 467px;
+    border-width: 4px;
+    transform: rotate(-21deg);
+}
+
+/*リボン 2*/
+.ribbon-2{
+    position: absolute;
+    top: 97px;
+    left: 468px;
+    width: 86px;
+    height: 38px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.ribbon-2 .line{
+    position: absolute;
+    top: -178px;
+    left: -23px;
+    width: 281px;
+    height: 799px;
+    border-width: 4px;
+    transform: rotate(17deg);
+}
+
+/*リボン 3*/
+.ribbon-3{
+    position: absolute;
+    top: 124px;
+    left: 441px;
+    width: 86px;
+    height: 90px;
+    border-radius: 50%;
+    transform: rotate(29deg);
+}
+.ribbon-3 .line{
+    position: absolute;
+    top: -178px;
+    left: 54px;
+    width: 281px;
+    height: 799px;
+    border-width: 4px;
+    transform: rotate(-9deg);
+}
+
+/*リボン 4*/
+.ribbon-4{
+    position: absolute;
+    top: 193px;
+    left: 441px;
+    width: 86px;
+    height: 186px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.ribbon-4 .line{
+    position: absolute;
+    top: -185px;
+    left: 12px;
+    width: 706px;
+    height: 393px;
+    border-width: 4px;
+    transform: rotate(-9deg);
+}
+
+/*リボン 5*/
+.ribbon-5{
+    position: absolute;
+    top: 310px;
+    left: 421px;
+    width: 91px;
+    height: 46px;
+    border-radius: 50%;
+    transform: rotate(48deg);
+}
+.ribbon-5 .line{
+    position: absolute;
+    top: -165px;
+    left: 55px;
+    width: 86px;
+    height: 393px;
+    border-width: 4px;
+    transform: rotate(-24deg);
+}
+
+/*リボン 6*/
+.ribbon-6{
+    position: absolute;
+    top: 347px;
+    left: 441px;
+    width: 84px;
+    height: 69px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.ribbon-6 .line{
+    position: absolute;
+    top: -378px;
+    left: 97px;
+    width: 245px;
+    height: 499px;
+    border-width: 4px;
+    transform: rotate(50deg);
+}
+
+/*リボン 7*/
+.ribbon-7{
+    position: absolute;
+    top: 348px;
+    left: 357px;
+    width: 112px;
+    height: 78px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.ribbon-7 .line{
+    position: absolute;
+    top: 2px;
+    left: 31px;
+    width: 164px;
+    height: 256px;
+    border-width: 4px;
+    transform: rotate(19deg);
+}
+
+/*リボン 8*/
+.ribbon-8{
+    position: absolute;
+    top: 421px;
+    left: 371px;
+    width: 100px;
+    height: 163px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.ribbon-8 .line{
+    position: absolute;
+    top: -80px;
+    left: 52px;
+    width: 164px;
+    height: 335px;
+    border-width: 4px;
+    transform: rotate(-23deg);
+}
+
+/*リボン 9*/
+.ribbon-9{
+    position: absolute;
+    top: 571px;
+    left: 436px;
+    width: 25px;
+    height: 11px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.ribbon-9 .line{
+    position: absolute;
+    top: -13px;
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border-width: 4px;
+    transform: rotate(1deg);
+}
+
+/*リボン 10*/
+.ribbon-10{
+    position: absolute;
+    top: 475px;
+    left: 445px;
+    width: 69px;
+    height: 105px;
+    border-radius: 50%;
+    transform: rotate(33deg);
+}
+.ribbon-10 .line{
+    position: absolute;
+    top: -62px;
+    left: 37px;
+    width: 163px;
+    height: 254px;
+    border-width: 4px;
+    transform: rotate(13deg);
+}
+
 /*左側の目の右側アイホール*/
 .face-lefteyehole-right{
     position: absolute;
