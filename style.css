@@ -621,6 +621,66 @@
     transform: rotate(57deg);
 }
 
+/*サイド髪 その10*/
+.hair-side-10{
+    position: absolute;
+    top: -26px;
+    left: 1268px;
+    width: 264px;
+    height: 627px;
+    border-radius: 50%;
+    transform: rotate(-33deg);
+}
+.hair-side-10 .line{
+    position: absolute;
+    top: 94px;
+    left: -609px;
+    width: 1059px;
+    height: 554px;
+    border-width: 5px;
+    transform: rotate(98deg);
+}
+
+/*サイド髪 その11*/
+.hair-side-11{
+    position: absolute;
+    top: 488px;
+    left: 1493.5px;
+    width: 455px;
+    height: 727px;
+    border-radius: 50%;
+    transform: rotate(-39deg);
+}
+.hair-side-11 .line{
+    position: absolute;
+    top: -285px;
+    left: 262px;
+    width: 529px;
+    height: 971px;
+    border-width: 5px;
+    transform: rotate(22deg);
+}
+
+/*サイド髪 その12*/
+.hair-side-12{
+    position: absolute;
+    top: 503px;
+    left: 1539px;
+    width: 348px;
+    height: 634px;
+    border-radius: 50%;
+    transform: rotate(-18deg);
+}
+.hair-side-12 .line{
+    position: absolute;
+    top: -326px;
+    left: 18px;
+    width: 868px;
+    height: 1135px;
+    border-width: 5px;
+    transform: rotate(2deg);
+}
+
 /*左側の目の右側アイホール*/
 .face-lefteyehole-right{
     position: absolute;
