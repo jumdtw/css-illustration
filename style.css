@@ -943,6 +943,65 @@
     transform: rotate(-20deg);
 }
 
+/*サイド髪 その25*/
+.hair-side-25{
+    position: absolute;
+    top: 379px;
+    left: 1892px;
+    width: 119px;
+    height: 93px;
+    border-radius: 50%;
+    transform: rotate(16deg);
+}
+.hair-side-25 .line{
+    position: absolute;
+    top: -95px;
+    left: -413px;
+    width: 959px;
+    height: 137px;
+    border-width: 4px;
+    transform: rotate(-9deg);
+}
+
+/*サイド髪 その26*/
+.hair-side-26{
+    position: absolute;
+    top: 442px;
+    left: 1888px;
+    width: 122px;
+    height: 93px;
+    border-radius: 50%;
+    transform: rotate(1deg);
+}
+.hair-side-26 .line{
+    position: absolute;
+    top: -95px;
+    left: -413px;
+    width: 959px;
+    height: 137px;
+    border-width: 4px;
+    transform: rotate(-1deg);
+}
+
+/*サイド髪 その27*/
+.hair-side-27{
+    position: absolute;
+    top: 562px;
+    left: 1879px;
+    width: 132px;
+    height: 62px;
+    border-radius: 50%;
+    transform: rotate(9deg);
+}
+.hair-side-27 .line{
+    position: absolute;
+    top: -108px;
+    left: -223px;
+    width: 540px;
+    height: 137px;
+    border-width: 4px;
+    transform: rotate(2deg);
+}
 
 /*リボン 1*/
 .ribbon-1{
