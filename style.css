@@ -2164,26 +2164,226 @@
     left: -286px;
     width: 518px;
     height: 114px;
-    border-width: 3px;
+    border-width: 4px;
     transform: rotate(44deg);
 }
 
 /*服 2*/
 .clothes-2{
     position: absolute;
-    top: 371px;
-    left: 1571px;
-    width: 42px;
-    height: 32px;
+    top: 372px;
+    left: 1575px;
+    width: 65px;
+    height: 26px;
     border-radius: 50%;
-    transform: rotate(-33deg);
+    transform: rotate(-29deg);
 }
 .clothes-2 .line{
     position: absolute;
-    top: -95px;
-    left: 3px;
+    top: -385px;
+    left: 165.5px;
+    width: 181px;
+    height: 719px;
+    border-width: 4px;
+    transform: rotate(64deg);
+}
+
+/*服 3*/
+.clothes-3{
+    position: absolute;
+    top: 147px;
+    left: 1602px;
+    width: 42px;
+    height: 233px;
+    border-radius: 50%;
+    transform: rotate(11deg);
+}
+.clothes-3 .line{
+    position: absolute;
+    top: -64px;
+    left: 33px;
     width: 60px;
-    height: 294px;
+    height: 706px;
+    border-width: 5px;
+    transform: rotate(-7deg);
+}
+
+/*服 4*/
+.clothes-4{
+    position: absolute;
+    top: 111px;
+    left: 1634px;
+    width: 42px;
+    height: 59px;
+    border-radius: 50%;
+    transform: rotate(6deg);
+}
+.clothes-4 .line{
+    position: absolute;
+    top: -132px;
+    left: -10px;
+    width: 37px;
+    height: 492px;
     border-width: 3px;
-    transform: rotate(52deg);
+    transform: rotate(10deg);
+}
+
+/*服 5*/
+.clothes-5{
+    position: absolute;
+    top: 72px;
+    left: 1602px;
+    width: 42px;
+    height: 115px;
+    border-radius: 50%;
+    transform: rotate(9deg);
+}
+.clothes-5 .line{
+    position: absolute;
+    top: -109px;
+    left: 25px;
+    width: 37px;
+    height: 265px;
+    border-width: 3px;
+    transform: rotate(-11deg);
+}
+
+/*服 6*/
+.clothes-6{
+    position: absolute;
+    top: 13px;
+    left: 1612px;
+    width: 74px;
+    height: 64px;
+    border-radius: 50%;
+    transform: rotate(-0deg);
+}
+.clothes-6 .line{
+    position: absolute;
+    top: -107px;
+    left: 37px;
+    width: 88px;
+    height: 265px;
+    border-width: 3px;
+    transform: rotate(28deg);
+}
+
+/*服 7*/
+.clothes-7{
+    position: absolute;
+    top: 15px;
+    left: 1641px;
+    width: 15px;
+    height: 18px;
+    border-radius: 50%;
+    transform: rotate(-0deg);
+}
+.clothes-7 .line{
+    position: absolute;
+    top: -107px;
+    left: 7px;
+    width: 88px;
+    height: 265px;
+    border-width: 2px;
+    transform: rotate(-2deg);
+}
+
+/*服 8*/
+.clothes-8{
+    position: absolute;
+    top: 1106px;
+    left: 1958px;
+    width: 43px;
+    height: 22px;
+    border-radius: 50%;
+    transform: rotate(-0deg);
+}
+.clothes-8 .line{
+    position: absolute;
+    top: -107px;
+    left: -74px;
+    width: 88px;
+    height: 265px;
+    border-width: 4px;
+    transform: rotate(-36deg);
+}
+
+/*服 9*/
+.clothes-9{
+    position: absolute;
+    top: 954px;
+    left: 1856px;
+    width: 70px;
+    height: 43px;
+    border-radius: 50%;
+    transform: rotate(21deg);
+}
+.clothes-9 .line{
+    position: absolute;
+    top: -107px;
+    left: -83px;
+    width: 88px;
+    height: 265px;
+    border-width: 4px;
+    transform: rotate(-44deg);
+}
+
+/*服 10*/
+.clothes-10{
+    position: absolute;
+    top: 681px;
+    left: 1836px;
+    width: 123px;
+    height: 290px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.clothes-10 .line{
+    position: absolute;
+    top: -226px;
+    left: -61px;
+    width: 88px;
+    height: 644px;
+    border-width: 4px;
+    transform: rotate(-3deg);
+}
+
+/*服 11*/
+.clothes-11{
+    position: absolute;
+    top: 267px;
+    left: 1853px;
+    width: 123px;
+    height: 577px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.clothes-11 .line{
+    position: absolute;
+    top: -236px;
+    left: -59px;
+    width: 88px;
+    height: 862px;
+    border-width: 4px;
+    transform: rotate(4deg);
+}
+
+/*服 12*/
+.clothes-12{
+    position: absolute;
+    top: 13px;
+    left: 1872px;
+    width: 123px;
+    height: 304px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.clothes-12 .line{
+    position: absolute;
+    top: -128px;
+    left: -51px;
+    width: 88px;
+    height: 580px;
+    border-width: 4px;
+    transform: rotate(9deg);
 }
