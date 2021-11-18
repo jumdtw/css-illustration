@@ -2586,3 +2586,142 @@
     border-width: 4px;
     transform: rotate(-9deg);
 }
+
+/*フリル 8*/
+.frill-8{
+    position: absolute;
+    top: 955px;
+    left: 1274px;
+    width: 37px;
+    height: 61px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.frill-8 .line{
+    position: absolute;
+    top: -20px;
+    left: -26px;
+    width: 65px;
+    height: 41px;
+    border-width: 4px;
+    transform: rotate(-51deg);
+}
+
+/*フリル 9*/
+.frill-9{
+    position: absolute;
+    top: 941px;
+    left: 1287px;
+    width: 58px;
+    height: 28px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.frill-9 .line{
+    position: absolute;
+    top: -2px;
+    left: 9px;
+    width: 65px;
+    height: 41px;
+    border-width: 4px;
+    transform: rotate(-54deg);
+}
+
+/*フリル 10*/
+.frill-10{
+    position: absolute;
+    top: 855px;
+    left: 1380px;
+    width: 21px;
+    height: 51px;
+    border-radius: 50%;
+    transform: rotate(33deg);
+}
+.frill-10 .line{
+    position: absolute;
+    top: -7px;
+    left: -50px;
+    width: 65px;
+    height: 41px;
+    border-width: 4px;
+    transform: rotate(-73deg);
+}
+
+/*フリル 11*/
+.frill-11{
+    position: absolute;
+    top: 821px;
+    left: 1380px;
+    width: 63px;
+    height: 30px;
+    border-radius: 50%;
+    transform: rotate(-48deg);
+}
+.frill-11 .line{
+    position: absolute;
+    top: 14px;
+    left: -4px;
+    width: 61px;
+    height: 56px;
+    border-width: 4px;
+    transform: rotate(-6deg);
+}
+
+/*フリル 12*/
+.frill-12{
+    position: absolute;
+    top: 825px;
+    left: 1421px;
+    width: 22px;
+    height: 53px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+}
+.frill-12 .line{
+    position: absolute;
+    top: -16px;
+    left: 11px;
+    width: 18px;
+    height: 112px;
+    border-width: 4px;
+    transform: rotate(-6deg);
+}
+
+/*フリル 13*/
+.frill-13{
+    position: absolute;
+    top: 829px;
+    left: 1309px;
+    width: 41px;
+    height: 312px;
+    border-radius: 50%;
+    transform: rotate(43deg);
+}
+.frill-13 .line{
+    position: absolute;
+    top: -119px;
+    left: -39px;
+    width: 65px;
+    height: 409px;
+    border-width: 4px;
+    transform: rotate(-3deg);
+}
+/*フリル 14*/
+.frill-14{
+    position: absolute;
+    top: 1080px;
+    left: 1214px;
+    width: 41px;
+    height: 92px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+}
+.frill-14 .line{
+    position: absolute;
+    top: -83px;
+    left: -53px;
+    width: 73px;
+    height: 206px;
+    border-width: 4px;
+    transform: rotate(-33deg);
+}
