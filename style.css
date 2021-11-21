@@ -1,6 +1,6 @@
 :root{
-    --sitagaki-color:red;
-    --hair-base-color: #ffe7ff;
+    /*--hair-base-color: #ffe7ff;*/
+    --hair-base-color: rgba(255,0,0,0.6);
     --skin-base-color: #fff6e5;
     --skin-shadow-base-color: #fcbebf;
 }
@@ -12,15 +12,25 @@
     margin: 0 auto;
     width: 2000px;
     height: 1112px;
-    border: solid 30px #f0cf00;
+    background-color: skyblue;
 }
 
 .base-window{
-    position: absolute;
+    position: relative;
     top: -16px;
     left: -10px;
     width: 2008px;
     height: 1126px;
+}
+
+.frame{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1977px;
+    height: 1094px;
+    border: solid 30px #f0cf00;
+    z-index:200;
 }
 
 /* これでグラデーションをつける filter: blur(20px); */
@@ -42,6 +52,11 @@
     border-color: #000;
     border-radius: 50%;
 }
+
+.skin-base-color{
+    background-color: var(--skin-base-color);
+}
+
 .hair-base-color{
     background-color: var(--hair-base-color);
 }
@@ -54,6 +69,7 @@
     width: 31px;
     height: 30px;
     border-radius: 50%;
+    z-index:31;
 }
 .nose-1 div{
     position: absolute;
@@ -74,6 +90,7 @@
     width: 518px;
     height: 2076px;
     border-radius: 50%;
+    z-index:31;
 }
 .face-ago-left .line{
     position: absolute;
@@ -93,6 +110,7 @@
     width: 676px;
     height: 226px;
     border-radius: 50%;
+    z-index:31;
 }
 .face-ago-right .line{
     position: absolute;
@@ -102,7 +120,6 @@
     height: 438px;
     border-width: 5px;
     transform: rotate(116deg);
-    background-color: var(--skin-base-color);
 }
 
 /*頬 右下 1*/
@@ -113,6 +130,7 @@
     width: 214px;
     height: 258px;
     border-radius: 50%;
+    z-index:31;
 }
 .face-hohoright-1 .line{
     position: absolute;
@@ -121,7 +139,6 @@
     width: 200px;
     height: 323px;
     border-width: 5px;
-    background-color: var(--skin-base-color);
 }
 
 /*頬 右下 2*/
@@ -133,8 +150,8 @@
     height: 356px;
     border-radius: 50%;
     transform: rotate(-5deg);
+    z-index:31;
 }
-
 .face-hohoright-2 .line{
     position: absolute;
     top: -107px;
@@ -196,6 +213,7 @@
     width: 438px;
     height: 217px;
     transform: rotate(0deg);
+    z-index:31;
 }
 .face-base-color-3 div{
     position: absolute;
@@ -216,6 +234,7 @@
     width: 87px;
     height: 30px;
     transform: rotate(11deg);
+    z-index:31;
 }
 .face-shadow-1 div{
     position: absolute;
@@ -237,6 +256,7 @@
     width: 31px;
     height: 57px;
     transform: rotate(-31deg);
+    z-index:31;
 }
 .face-shadow-2 div{
     position: absolute;
@@ -364,7 +384,7 @@
     height: 668px;
     border-radius: 50%;
     transform: rotate(-38deg);
-    z-index:30;
+    z-index:31;
 }
 .hair-front4 .line{
     position: absolute;
@@ -405,7 +425,7 @@
     width: 397px;
     height: 668px;
     border-radius: 50%;
-    z-index:31;
+    z-index:32;
 }
 .hair-front6 .line{
     position: absolute;
@@ -467,6 +487,7 @@
     height: 83px;
     border-radius: 50%;
     transform: rotate(18deg);
+    z-index:31;
 }
 .hair-front9 .line{
     position: absolute;
@@ -487,6 +508,7 @@
     height: 83px;
     border-radius: 50%;
     transform: rotate(35deg);
+    z-index:30;
 }
 .hair-front10 .line{
     position: absolute;
@@ -507,6 +529,7 @@
     height: 83px;
     border-radius: 50%;
     transform: rotate(59deg);
+    z-index:31;
 }
 .hair-front11 .line{
     position: absolute;
@@ -516,6 +539,7 @@
     height: 114px;
     border-width: 5px;
     transform: rotate(-1deg);
+    box-shadow: 27px -70px 0px 0px var(--hair-base-color);
 }
 
 /*前髪 その12*/
@@ -527,6 +551,7 @@
     height: 554px;
     border-radius: 50%;
     transform: rotate(6deg);
+    z-index:31;
 }
 .hair-front12 .line{
     position: absolute;
@@ -547,6 +572,7 @@
     height: 593px;
     border-radius: 50%;
     transform: rotate(9deg);
+    z-index:30;
 }
 .hair-front13 .line{
     position: absolute;
@@ -587,6 +613,7 @@
     height: 603px;
     border-radius: 50%;
     transform: rotate(-36deg);
+    z-index:28;
 }
 .hair-front15 .line{
     position: absolute;
@@ -687,6 +714,7 @@
     height: 719px;
     border-radius: 50%;
     transform: rotate(-39deg);
+    z-index:31;
 }
 .hair-side-4 .line{
     position: absolute;
@@ -707,6 +735,7 @@
     height: 409px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:30;
 }
 .hair-side-5 .line{
     position: absolute;
@@ -747,6 +776,7 @@
     height: 319px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:30;
 }
 .hair-side-7 .line{
     position: absolute;
@@ -756,6 +786,7 @@
     height: 710px;
     border-width: 5px;
     transform: rotate(-29deg);
+    box-shadow: 123px -16px 0px 0px var(--hair-base-color);
 }
 
 /*サイド髪 その8*/
@@ -796,6 +827,7 @@
     height: 710px;
     border-width: 5px;
     transform: rotate(57deg);
+    box-shadow: 27px -70px 0px 0px var(--hair-base-color);
 }
 
 /*サイド髪 その10*/
@@ -807,6 +839,7 @@
     height: 627px;
     border-radius: 50%;
     transform: rotate(-33deg);
+    z-index:29;
 }
 .hair-side-10 .line{
     position: absolute;
@@ -827,6 +860,7 @@
     height: 727px;
     border-radius: 50%;
     transform: rotate(-39deg);
+    z-index:29;
 }
 .hair-side-11 .line{
     position: absolute;
@@ -836,6 +870,7 @@
     height: 971px;
     border-width: 5px;
     transform: rotate(22deg);
+    box-shadow: -116px 63px 0px 0px var(--hair-base-color);
 }
 
 /*サイド髪 その12*/
@@ -847,6 +882,7 @@
     height: 634px;
     border-radius: 50%;
     transform: rotate(-18deg);
+    z-index:29;
 }
 .hair-side-12 .line{
     position: absolute;
@@ -856,6 +892,7 @@
     height: 1135px;
     border-width: 5px;
     transform: rotate(2deg);
+    background-image: linear-gradient(66deg, var(--hair-base-color) 17%, rgba(0,0,0,0) 16%);
 }
 
 /*サイド髪 その13*/
@@ -867,6 +904,7 @@
     height: 517px;
     border-radius: 50%;
     transform: rotate(-18deg);
+    z-index:29;
 }
 .hair-side-13 .line{
     position: absolute;
@@ -887,6 +925,7 @@
     height: 372px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:29;
 }
 .hair-side-14 .line{
     position: absolute;
@@ -896,7 +935,7 @@
     height: 855px;
     border-width: 5px;
     transform: rotate(-33deg);
-
+    background-image: linear-gradient(45deg, var(--hair-base-color) 24%, rgba(0,0,0,0) 16%);
 }
 
 /*サイド髪 その15*/
@@ -908,6 +947,7 @@
     height: 372px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:29;
 }
 .hair-side-15 .line{
     position: absolute;
@@ -917,6 +957,7 @@
     height: 495px;
     border-width: 5px;
     transform: rotate(-61deg);
+    background-image: linear-gradient(45deg, var(--hair-base-color) 24%, rgba(0,0,0,0) 16%);
 }
 
 /*サイド髪 その16*/
@@ -928,6 +969,7 @@
     height: 372px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:29;
 }
 .hair-side-16 .line{
     position: absolute;
@@ -948,6 +990,7 @@
     height: 372px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:29;
 }
 .hair-side-17 .line{
     position: absolute;
@@ -997,6 +1040,7 @@
     height: 567px;
     border-width: 4px;
     transform: rotate(-31deg);
+    box-shadow: -116px 63px 0px 0px var(--hair-base-color);
 }
 
 /*サイド髪 その20*/
@@ -1008,6 +1052,7 @@
     height: 173px;
     border-radius: 50%;
     transform: rotate(-29deg);
+    z-index:30;
 }
 .hair-side-20 .line{
     position: absolute;
@@ -1017,6 +1062,7 @@
     height: 567px;
     border-width: 4px;
     transform: rotate(-33deg);
+    background-image: linear-gradient(94deg, var(--hair-base-color) 21%, rgba(0,0,0,0) 16%);
 }
 
 /*サイド髪 その21*/
@@ -1028,6 +1074,7 @@
     height: 286px;
     border-radius: 50%;
     transform: rotate(-27deg);
+    z-index:28;
 }
 .hair-side-21 .line{
     position: absolute;
@@ -1068,6 +1115,7 @@
     height: 280px;
     border-radius: 50%;
     transform: rotate(-14deg);
+    z-index: 28;
 }
 .hair-side-23 .line{
     position: absolute;
@@ -1077,6 +1125,7 @@
     height: 631px;
     border-width: 4px;
     transform: rotate(12deg);
+    box-shadow: 30px 76px 0px 0px var(--hair-base-color);
 }
 
 /*サイド髪 その24*/
@@ -1097,6 +1146,7 @@
     height: 729px;
     border-width: 4px;
     transform: rotate(-20deg);
+    box-shadow: 136px 76px 0px 0px var(--hair-base-color);
 }
 
 /*サイド髪 その25*/
@@ -1117,6 +1167,7 @@
     height: 137px;
     border-width: 4px;
     transform: rotate(-9deg);
+    box-shadow: 136px 76px 0px 0px var(--hair-base-color);
 }
 
 /*サイド髪 その26*/
@@ -2028,6 +2079,7 @@
     height: 250px;
     border-radius: 50%;
     transform: rotate(166deg);
+    z-index:50;
 }
 .face-righteyehole-right .line{
     position: absolute;
@@ -2048,6 +2100,7 @@
     height: 315px;
     border-radius: 50%;
     transform: rotate(57deg);
+    z-index:50;
 }
 .face-righteyehole-left .line{
     position: absolute;
@@ -2068,6 +2121,7 @@
     height: 315px;
     border-radius: 50%;
     transform: rotate(161deg);
+    z-index:50;
 }
 .face-righteyehole-bottom .line{
     position: absolute;
@@ -2087,6 +2141,7 @@
     --face-righteyehole-center1-h: 53px;
     transform: rotate(-24deg);
     height: 2px;
+    z-index:50;
 }
 .face-righteyehole-center1 div{
     width: var(--face-righteyehole-center1-w);
@@ -2104,6 +2159,7 @@
     height: 315px;
     border-radius: 50%;
     transform: rotate(-25deg);
+    z-index:50;
 }
 .face-righteyehole-center2 div{
     position: absolute;
@@ -2123,6 +2179,7 @@
     width: 281px;
     height: 210px;
     border-radius: 50%;
+    z-index:50;
 }
 .face-righteyeline-1 div{
     position: absolute;
@@ -2144,6 +2201,7 @@
     width: 281px;
     height: 210px;
     border-radius: 50%;
+    z-index:50;
 }
 .face-righteyeline-2 div{
     position: absolute;
@@ -2165,6 +2223,7 @@
     width: 281px;
     height: 625px;
     border-radius: 50%;
+    z-index:50;
 }
 .face-righteyeline-3 div{
     position: absolute;
@@ -2187,6 +2246,7 @@
     height: 242px;
     border-radius: 50%;
     transform: rotate(-33deg);
+    z-index:50;
 }
 .face-righteyeline-4 .line{
     position: absolute;
@@ -2207,6 +2267,7 @@
     height: 225px;
     border-radius: 50%;
     transform: rotate(19deg);
+    z-index:50;
 }
 .face-righteyeline-5 div{
     position: absolute;
@@ -2229,6 +2290,7 @@
     height: 225px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:50;
 }
 .face-righteyeline-6 div{
     position: absolute;
@@ -2251,6 +2313,7 @@
     height: 225px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:50;
 }
 .face-righteyeline-7 div{
     position: absolute;
@@ -2294,6 +2357,7 @@
     height: 19px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:50;
 }
 .face-righteyelashes-1 .line{
     position: absolute;
@@ -2314,6 +2378,7 @@
     height: 19px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:50;
 }
 .face-righteyelashes-2 .line{
     position: absolute;
@@ -2334,6 +2399,7 @@
     height: 19px;
     border-radius: 50%;
     transform: rotate(28deg);
+    z-index:50;
 }
 .face-righteyelashes-3 .line{
     position: absolute;
@@ -2354,6 +2420,7 @@
     height: 284px;
     border-radius: 50%;
     transform: rotate(-30deg);
+    z-index:50;
 }
 .mouse-1 .line{
     position: absolute;
@@ -2374,6 +2441,7 @@
     height: 315px;
     border-radius: 50%;
     transform: rotate(-48deg);
+    z-index:50;
 }
 .mouse-2 .line{
     position: absolute;
@@ -2497,6 +2565,7 @@
     height: 26px;
     border-radius: 50%;
     transform: rotate(-29deg);
+    z-index:35;
 }
 .clothes-2 .line{
     position: absolute;
@@ -2517,6 +2586,7 @@
     height: 233px;
     border-radius: 50%;
     transform: rotate(11deg);
+    z-index:35;
 }
 .clothes-3 .line{
     position: absolute;
@@ -2717,6 +2787,7 @@
     height: 66px;
     border-radius: 50%;
     transform: rotate(-42deg);
+    z-index:40;
 }
 .frill-1 .line{
     position: absolute;
@@ -2737,6 +2808,7 @@
     height: 23px;
     border-radius: 50%;
     transform: rotate(8deg);
+    z-index:40;
 }
 .frill-2 .line{
     position: absolute;
@@ -2757,6 +2829,7 @@
     height: 21px;
     border-radius: 50%;
     transform: rotate(50deg);
+    z-index:40;
 }
 .frill-3 .line{
     position: absolute;
@@ -2777,6 +2850,7 @@
     height: 16px;
     border-radius: 50%;
     transform: rotate(-43deg);
+    z-index:40;
 }
 .frill-4 .line{
     position: absolute;
@@ -2797,6 +2871,7 @@
     height: 20px;
     border-radius: 50%;
     transform: rotate(-43deg);
+    z-index:40;
 }
 .frill-5 .line{
     position: absolute;
@@ -2817,6 +2892,7 @@
     height: 25px;
     border-radius: 50%;
     transform: rotate(35deg);
+    z-index:40;
 }
 .frill-6 .line{
     position: absolute;
@@ -2837,6 +2913,7 @@
     height: 25px;
     border-radius: 50%;
     transform: rotate(53deg);
+    z-index:40;
 }
 .frill-7 .line{
     position: absolute;
@@ -2857,6 +2934,7 @@
     height: 61px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-8 .line{
     position: absolute;
@@ -2877,6 +2955,7 @@
     height: 28px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-9 .line{
     position: absolute;
@@ -2897,6 +2976,7 @@
     height: 51px;
     border-radius: 50%;
     transform: rotate(33deg);
+    z-index:40;
 }
 .frill-10 .line{
     position: absolute;
@@ -2917,6 +2997,7 @@
     height: 30px;
     border-radius: 50%;
     transform: rotate(-48deg);
+    z-index:40;
 }
 .frill-11 .line{
     position: absolute;
@@ -2937,6 +3018,7 @@
     height: 53px;
     border-radius: 50%;
     transform: rotate(-1deg);
+    z-index:40;
 }
 .frill-12 .line{
     position: absolute;
@@ -2957,6 +3039,7 @@
     height: 312px;
     border-radius: 50%;
     transform: rotate(43deg);
+    z-index:40;
 }
 .frill-13 .line{
     position: absolute;
@@ -2977,6 +3060,7 @@
     height: 38px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-14 .line{
     position: absolute;
@@ -2997,6 +3081,7 @@
     height: 56px;
     border-radius: 50%;
     transform: rotate(-70deg);
+    z-index:40;
 }
 .frill-15 .line{
     position: absolute;
@@ -3017,6 +3102,7 @@
     height: 56px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-16 .line{
     position: absolute;
@@ -3037,6 +3123,7 @@
     height: 44px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-17 .line{
     position: absolute;
@@ -3057,6 +3144,7 @@
     height: 48px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-18 .line{
     position: absolute;
@@ -3077,6 +3165,7 @@
     height: 48px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-19 .line{
     position: absolute;
@@ -3097,6 +3186,7 @@
     height: 53px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-20 .line{
     position: absolute;
@@ -3117,6 +3207,7 @@
     height: 19px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-21 .line{
     position: absolute;
@@ -3137,6 +3228,7 @@
     height: 25px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-22 .line{
     position: absolute;
@@ -3157,6 +3249,7 @@
     height: 19px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-23 .line{
     position: absolute;
@@ -3177,6 +3270,7 @@
     height: 190px;
     border-radius: 50%;
     transform: rotate(5deg);
+    z-index:40;
 }
 .frill-24 .line{
     position: absolute;
@@ -3197,6 +3291,7 @@
     height: 204px;
     border-radius: 50%;
     transform: rotate(-3deg);
+    z-index:40;
 }
 .frill-25 .line{
     position: absolute;
@@ -3217,6 +3312,7 @@
     height: 66px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-26 .line{
     position: absolute;
@@ -3237,6 +3333,7 @@
     height: 193px;
     border-radius: 50%;
     transform: rotate(-3deg);
+    z-index:40;
 }
 .frill-27 .line{
     position: absolute;
@@ -3257,6 +3354,7 @@
     height: 193px;
     border-radius: 50%;
     transform: rotate(-11deg);
+    z-index:40;
 }
 .frill-28 .line{
     position: absolute;
@@ -3277,6 +3375,7 @@
     height: 135px;
     border-radius: 50%;
     transform: rotate(-19deg);
+    z-index:40;
 }
 .frill-29 .line{
     position: absolute;
@@ -3297,6 +3396,7 @@
     height: 60px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:40;
 }
 .frill-30 .line{
     position: absolute;
@@ -3317,6 +3417,7 @@
     height: 36px;
     border-radius: 50%;
     transform: rotate(-25deg);
+    z-index:40;
 }
 .frill-31 .line{
     position: absolute;
@@ -3337,6 +3438,7 @@
     height: 81px;
     border-radius: 50%;
     transform: rotate(-22deg);
+    z-index:40;
 }
 .frill-32 .line{
     position: absolute;
@@ -3357,6 +3459,7 @@
     height: 81px;
     border-radius: 50%;
     transform: rotate(-22deg);
+    z-index:40;
 }
 .frill-33 .line{
     position: absolute;
@@ -3377,6 +3480,7 @@
     height: 53px;
     border-radius: 50%;
     transform: rotate(20deg);
+    z-index:40;
 }
 .frill-34 .line{
     position: absolute;
@@ -3397,6 +3501,7 @@
     height: 31px;
     border-radius: 50%;
     transform: rotate(77deg);
+    z-index:40;
 }
 .frill-35 .line{
     position: absolute;
@@ -3417,6 +3522,7 @@
     height: 93px;
     border-radius: 50%;
     transform: rotate(-29deg);
+    z-index:40;
 }
 .frill-36 .line{
     position: absolute;
