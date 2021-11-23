@@ -1,6 +1,6 @@
 :root{
+    /*
     --hair-base-color: #ffe7ff;
-    /*--hair-base-color: rgba(255,0,0,0.6);*/
     --skin-base-color: #fff6e5;
     --skin-shadow-base-color: #fcbebf;
     --ribbon-base-color: #61dae5;
@@ -9,6 +9,7 @@
     --clothes-base-color: #5c4656;
     --clothes-shadow-base-color: #3d2d38;
     --clothes-highlight-base-color: #fefffa;
+    */
 }
 
 .container{
@@ -19,7 +20,6 @@
     width: 2000px;
     height: 1112px;
     /*background-color: skyblue;*/
-    background-color: red;
 }
 
 .base-window{
