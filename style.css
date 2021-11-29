@@ -1,5 +1,4 @@
 :root{
-    /*
     --hair-base-color: #ffe7ff;
     --hair-shadow-color:#b9a5d6;
     --skin-base-color: #fff6e5;
@@ -10,8 +9,6 @@
     --clothes-base-color: #5c4656;
     --clothes-shadow-base-color: #3d2d38;
     --clothes-highlight-base-color: #fefffa;
-    */
-    --hair-shadow-color:blue;
 }
 
 body{
@@ -965,7 +962,7 @@ body{
     height: 88px;
     border-radius: 50%;
     transform: rotate(54deg);
-    z-index: 28;
+    z-index: 32;
 }
 .hair-shadow-39 div{
     position: absolute;
@@ -987,7 +984,7 @@ body{
     height: 88px;
     border-radius: 50%;
     transform: rotate(51deg);
-    z-index: 28;
+    z-index: 30;
 }
 .hair-shadow-40 div{
     position: absolute;
@@ -1009,7 +1006,7 @@ body{
     height: 88px;
     border-radius: 50%;
     transform: rotate(86deg);
-    z-index: 28;
+    z-index: 30;
 }
 .hair-shadow-41 div{
     position: absolute;
@@ -1031,7 +1028,7 @@ body{
     height: 99px;
     border-radius: 50%;
     transform: rotate(74deg);
-    z-index: 28;
+    z-index: 30;
 }
 .hair-shadow-42 div{
     position: absolute;
@@ -1053,7 +1050,7 @@ body{
     height: 99px;
     border-radius: 50%;
     transform: rotate(71deg);
-    z-index: 28;
+    z-index: 30;
 }
 .hair-shadow-43 div{
     position: absolute;
@@ -1263,7 +1260,7 @@ body{
     width: 31px;
     height: 57px;
     transform: rotate(-31deg);
-    z-index:31;
+    z-index:32;
 }
 .face-shadow-2 div{
     position: absolute;
@@ -1538,7 +1535,7 @@ body{
     height: 83px;
     border-radius: 50%;
     transform: rotate(59deg);
-    z-index:31;
+    z-index:40;
 }
 .hair-front11 .line{
     position: absolute;
@@ -1548,7 +1545,6 @@ body{
     height: 114px;
     border-width: 5px;
     transform: rotate(-1deg);
-    box-shadow: 27px -70px 0px 0px var(--hair-base-color);
 }
 
 /*前髪 その12*/
