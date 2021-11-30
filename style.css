@@ -1069,20 +1069,20 @@ body{
 /*髪の毛の影 44*/
 .hair-shadow-44{
     position: absolute;
-    top: 216px;
-    left: 1465px;
-    width: 154px;
-    height: 871px;
+    top: 186px;
+    left: 1541px;
+    width: 142px;
+    height: 1537px;
     border-radius: 50%;
-    transform: rotate(-16deg);
-    z-index: 29;
+    transform: rotate(-13deg);
+    z-index: 30;
 }
 .hair-shadow-44 div{
     position: absolute;
-    top: 280px;
+    top: 352px;
     left: 104px;
     width: 241px;
-    height: 660px;
+    height: 576px;
     border-radius: 50%;
     transform: rotate(5deg);
     box-shadow: -28px -67px 0px 0px var(--hair-shadow-color);
@@ -1091,8 +1091,8 @@ body{
 /*髪の毛の影 45*/
 .hair-shadow-45{
     position: absolute;
-    top: 558px;
-    left: 1647px;
+    top: 565px;
+    left: 1653px;
     width: 212px;
     height: 772px;
     border-radius: 50%;
@@ -1157,13 +1157,13 @@ body{
 /*髪の毛の影 48*/
 .hair-shadow-48{
     position: absolute;
-    top: 1047px;
-    left: 1725px;
+    top: 1049px;
+    left: 1726px;
     width: 227px;
     height: 64px;
     border-radius: 50%;
     transform: rotate(23deg);
-    z-index: 29;
+    z-index: 30;
 }
 .hair-shadow-48 div{
     position: absolute;
@@ -1179,25 +1179,265 @@ body{
 /*髪の毛の影 49*/
 .hair-shadow-49{
     position: absolute;
-    top: 1047px;
-    left: 1725px;
-    width: 227px;
-    height: 64px;
+    top: 989px;
+    left: 1711px;
+    width: 329px;
+    height: 87px;
     border-radius: 50%;
-    transform: rotate(23deg);
-    z-index: 29;
-    background-color:green;
-    opacity:0.3;
+    transform: rotate(22deg);
+    z-index: 38;
 }
 .hair-shadow-49 div{
     position: absolute;
-    top: -316px;
-    left: 9px;
+    top: -277px;
+    left: 29px;
     width: 239px;
     height: 440px;
     border-radius: 50%;
-    transform: rotate(-109deg);
-    box-shadow: -29px 40px 0px 0px var(--hair-shadow-color);
+    transform: rotate(-97deg);
+    box-shadow: -22px 40px 0px 0px var(--hair-shadow-color);
+}
+
+/*髪の毛の影 50*/
+.hair-shadow-50{
+    position: absolute;
+    top: 996px;
+    left: 1815px;
+    width: 218px;
+    height: 63px;
+    border-radius: 50%;
+    transform: rotate(22deg);
+    z-index: 40;
+}
+.hair-shadow-50 div{
+    position: absolute;
+    top: -382px;
+    left: 36px;
+    width: 239px;
+    height: 563px;
+    border-radius: 50%;
+    transform: rotate(-102deg);
+    box-shadow: -13px 40px 0px 0px var(--hair-shadow-color);
+}
+
+/*髪の毛の影 51*/
+.hair-shadow-51{
+    position: absolute;
+    top: 55px;
+    left: 701px;
+    width: 234px;
+    height: 116px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.hair-shadow-51 div{
+    position: absolute;
+    top: -34px;
+    left: 76px;
+    width: 42px;
+    height: 134px;
+    border-radius: 50%;
+    transform: rotate(-103deg);
+    box-shadow: 8px -23px 0px 0px var(--hair-shadow-color);
+}
+
+/*髪の毛の影 52*/
+.hair-shadow-52{
+    position: absolute;
+    top: 13px;
+    left: 711px;
+    width: 179px;
+    height: 47px;
+    border-radius: 50%;
+    transform: rotate(-32deg);
+    z-index: 29;
+}
+.hair-shadow-52 div{
+    position: absolute;
+    top: 32px;
+    left: -14px;
+    width: 180px;
+    height: 52px;
+    border-radius: 50%;
+    transform: rotate(3deg);
+    box-shadow: -23px -12px 0px 0px var( --hair-shadow-color);
+}
+
+/*髪の毛の影 53*/
+.hair-shadow-53{
+    position: absolute;
+    top: 377px;
+    left: 1417px;
+    width: 50px;
+    height: 265px;
+    border-radius: 50%;
+    transform: rotate(-14deg);
+    z-index: 29;
+}
+.hair-shadow-53 div{
+    position: absolute;
+    top: -6px;
+    left: 13px;
+    width: 49px;
+    height: 235px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -15px 26px 0px 0px var( --hair-shadow-color);
+}
+
+/*髪の毛の影 54*/
+.hair-shadow-54{
+    position: absolute;
+    top: 396px;
+    left: 1410px;
+    width: 50px;
+    height: 292px;
+    border-radius: 50%;
+    transform: rotate(-18deg);
+    z-index: 29;
+}
+.hair-shadow-54 div{
+    position: absolute;
+    top: 1px;
+    left: -9px;
+    width: 49px;
+    height: 249px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 13px 22px 0px 0px var( --hair-shadow-color);
+}
+
+/*髪の毛の影 55*/
+.hair-shadow-55{
+    position: absolute;
+    top: 600px;
+    left: 1433px;
+    width: 50px;
+    height: 132px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.hair-shadow-55 div{
+    position: absolute;
+    top: 1px;
+    left: -16px;
+    width: 40px;
+    height: 133px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 6px 0px 0px 0px var( --hair-shadow-color);
+}
+
+/*髪の毛の影 56*/
+.hair-shadow-56{
+    position: absolute;
+    top: 645px;
+    left: 1451px;
+    width: 32px;
+    height: 55px;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    z-index: 29;
+}
+.hair-shadow-56 div{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 40px;
+    height: 64px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -9px 0px 0px 0px var( --hair-shadow-color);
+}
+
+/*髪の毛の影 57*/
+.hair-shadow-57{
+    position: absolute;
+    top: 719px;
+    left: 1408px;
+    width: 32px;
+    height: 133px;
+    border-radius: 50%;
+    transform: rotate(24deg);
+    z-index: 29;
+}
+.hair-shadow-57 div{
+    position: absolute;
+    top: -24px;
+    left: -21px;
+    width: 40px;
+    height: 282px;
+    border-radius: 50%;
+    transform: rotate(3deg);
+    box-shadow: 6px 0px 0px 0px var( --hair-shadow-color);
+}
+
+/*髪の毛の影 58*/
+.hair-shadow-58{
+    position: absolute;
+    top: 815px;
+    left: 1405px;
+    width: 59px;
+    height: 13px;
+    border-radius: 50%;
+    transform: rotate(-28deg);
+    z-index: 29;
+}
+.hair-shadow-58 div{
+    position: absolute;
+    top: 9px;
+    left: -65px;
+    width: 180px;
+    height: 37px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    box-shadow: 0px -7px 0px 0px var( --hair-shadow-color);
+}
+
+/*髪の毛の影 59*/
+.hair-shadow-59{
+    position: absolute;
+    top: 784px;
+    left: 1426px;
+    width: 37px;
+    height: 90px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.hair-shadow-59 div{
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    width: 71px;
+    height: 177px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    box-shadow: -13px -54px 0px 0px var( --hair-shadow-color);
+}
+
+/*髪の毛の影 60*/
+.hair-shadow-60{
+    position: absolute;
+    top: 730px;
+    left: 1438px;
+    width: 37px;
+    height: 67px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.hair-shadow-60 div{
+    position: absolute;
+    top: -21px;
+    left: 17px;
+    width: 75px;
+    height: 177px;
+    border-radius: 50%;
+    transform: rotate(-13deg);
+    box-shadow: -7px -33px 0px 0px var( --hair-shadow-color);
 }
 
 /* 線画+base color */
@@ -2038,7 +2278,6 @@ body{
     height: 1135px;
     border-width: 5px;
     transform: rotate(2deg);
-    background-image: linear-gradient(66deg, var(--hair-base-color) 17%, rgba(0,0,0,0) 16%);
 }
 
 /*サイド髪 その13*/
@@ -2081,7 +2320,6 @@ body{
     height: 855px;
     border-width: 5px;
     transform: rotate(-33deg);
-    background-image: linear-gradient(45deg, var(--hair-base-color) 24%, rgba(0,0,0,0) 16%);
 }
 
 /*サイド髪 その15*/
