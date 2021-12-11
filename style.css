@@ -2598,6 +2598,28 @@ body{
     background-color: var(--skin-shadow-base-color);
 }
 
+/*肌の影 13*/
+.skin-shadow-13{
+    position: absolute;
+    top: 830px;
+    left: 1384px;
+    width: 19px;
+    height: 79px;
+    border-radius: 50%;
+    transform: rotate(33deg);
+    z-index: 30;
+}
+.skin-shadow-13 div{
+    position: absolute;
+    top: -13px;
+    left: -21px;
+    width: 33px;
+    height: 88px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    background-color: var(--skin-shadow-base-color);
+}
+
 /*耳 色塗り 1*/
 .ear-base-color-1{
     position: absolute;
