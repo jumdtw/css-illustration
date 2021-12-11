@@ -4,6 +4,8 @@
     --hair-deepshadow-color:#ac8dd3;
     --skin-base-color: #fff6e5;
     --skin-shadow-base-color: #fcbebf;
+    --ear-base-color: #ffd7df;
+    --ear-shadow-color: #fe90b3;
     --ribbon-base-color: #61dae5;
     --frill-base-color: #fefefc;
     --frill-shadow-base-color: #b2bced;
@@ -985,7 +987,7 @@ body{
     height: 88px;
     border-radius: 50%;
     transform: rotate(51deg);
-    z-index: 30;
+    z-index: 33;
 }
 .hair-shadow-40 div{
     position: absolute;
@@ -1007,7 +1009,7 @@ body{
     height: 88px;
     border-radius: 50%;
     transform: rotate(86deg);
-    z-index: 30;
+    z-index: 33;
 }
 .hair-shadow-41 div{
     position: absolute;
@@ -1029,7 +1031,7 @@ body{
     height: 99px;
     border-radius: 50%;
     transform: rotate(74deg);
-    z-index: 30;
+    z-index: 33;
 }
 .hair-shadow-42 div{
     position: absolute;
@@ -1051,7 +1053,7 @@ body{
     height: 99px;
     border-radius: 50%;
     transform: rotate(71deg);
-    z-index: 30;
+    z-index: 33;
 }
 .hair-shadow-43 div{
     position: absolute;
@@ -1073,7 +1075,7 @@ body{
     height: 1537px;
     border-radius: 50%;
     transform: rotate(-13deg);
-    z-index: 30;
+    z-index: 33;
 }
 .hair-shadow-44 div{
     position: absolute;
@@ -1133,13 +1135,13 @@ body{
 /*髪の毛の影 47*/
 .hair-shadow-47{
     position: absolute;
-    top: 1057px;
+    top: 1053px;
     left: 1759px;
     width: 224px;
     height: 64px;
     border-radius: 50%;
     transform: rotate(17deg);
-    z-index: 29;
+    z-index: 30;
 }
 .hair-shadow-47 div{
     position: absolute;
@@ -1183,7 +1185,7 @@ body{
     height: 87px;
     border-radius: 50%;
     transform: rotate(22deg);
-    z-index: 38;
+    z-index: 37;
 }
 .hair-shadow-49 div{
     position: absolute;
@@ -1823,8 +1825,8 @@ body{
 /*髪の毛の影 79*/
 .hair-shadow-79{
     position: absolute;
-    top: 449px;
-    left: 395px;
+    top: 455px;
+    left: 396px;
     width: 446px;
     height: 207px;
     border-radius: 50%;
@@ -2071,7 +2073,7 @@ body{
     height: 254px;
     border-radius: 50%;
     transform: rotate(-9deg);
-    z-index: 32;
+    z-index: 34;
 }
 .hair-shadow-90 div{
     position: absolute;
@@ -2298,6 +2300,1006 @@ body{
     height: 45px;
     transform: rotate(0deg);
     background-color: var( --hair-deepshadow-color);
+}
+
+/*髪の毛の影 101*/
+.hair-shadow-101{
+    position: absolute;
+    top: 591px;
+    left: 1865px;
+    width: 97px;
+    height: 264px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.hair-shadow-101 div{
+    position: absolute;
+    top: -60px;
+    left: -29px;
+    width: 204px;
+    height: 148px;
+    border-radius: 50%;
+    transform: rotate(-8deg);
+    box-shadow: -60px 19px 0px 0px var( --hair-deepshadow-color);
+}
+
+/*髪の毛の影 102*/
+.hair-shadow-102{
+    position: absolute;
+    top: 279px;
+    left: 378px;
+    width: 55px;
+    height: 199px;
+    border-radius: 50%;
+    transform: rotate(50deg);
+    z-index: 28;
+}
+.hair-shadow-102 div{
+    position: absolute;
+    top: 5px;
+    left: -156px;
+    width: 241px;
+    height: 148px;
+    border-radius: 50%;
+    transform: rotate(-56deg);
+    box-shadow: 59px 21px 0px 0px var( --hair-deepshadow-color);
+}
+
+/*肌の影 1*/
+.skin-shadow-1{
+    position: absolute;
+    top: 903px;
+    left: 1058px;
+    width: 249px;
+    height: 82px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-1 div{
+    position: absolute;
+    top: -104px;
+    left: -38px;
+    width: 443px;
+    height: 148px;
+    border-radius: 50%;
+    transform: rotate(-2deg);
+    box-shadow: 39px 19px 0px 0px var(--skin-shadow-base-color);
+}
+
+/*肌の影 2*/
+.skin-shadow-2{
+    position: absolute;
+    top: 928px;
+    left: 1003px;
+    width: 249px;
+    height: 129px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-2 div{
+    position: absolute;
+    top: 26px;
+    left: -102px;
+    width: 393px;
+    height: 148px;
+    border-radius: 50%;
+    transform: rotate(39deg);
+    box-shadow: 39px -8px 0px 0px var(--skin-shadow-base-color);
+}
+
+/*肌の影 3*/
+.skin-shadow-3{
+    position: absolute;
+    top: 986px;
+    left: 1197px;
+    width: 52px;
+    height: 58px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-3 div{
+    position: absolute;
+    top: -17px;
+    left: 1px;
+    width: 52px;
+    height: 60px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -1px 13px 0px 0px var(--skin-shadow-base-color);
+}
+
+/*肌の影 4*/
+.skin-shadow-4{
+    position: absolute;
+    top: 964px;
+    left: 1227px;
+    width: 52px;
+    height: 58px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-4 div{
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    width: 52px;
+    height: 60px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -6px -7px 0px 0px var(--skin-shadow-base-color);
+}
+
+/*肌の影 5*/
+.skin-shadow-5{
+    position: absolute;
+    top: 952px;
+    left: 1270px;
+    width: 52px;
+    height: 58px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-5 div{
+    position: absolute;
+    top: -37px;
+    left: -24px;
+    width: 52px;
+    height: 60px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 9px 13px 0px 0px var(--skin-shadow-base-color);
+}
+
+/*肌の影 6*/
+.skin-shadow-6{
+    position: absolute;
+    top: 940px;
+    left: 1281px;
+    width: 52px;
+    height: 28px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-6 div{
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 52px;
+    height: 60px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -7px -6px 0px 0px var(--skin-shadow-base-color);
+}
+
+/*肌の影 7*/
+.skin-shadow-7{
+    position: absolute;
+    top: 952px;
+    left: 1158px;
+    width: 137px;
+    height: 75px;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-7 div{
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    width: 135px;
+    height: 27px;
+    transform: rotate(0deg);
+    background-color: var(--skin-shadow-base-color);
+}
+
+/*肌の影 8*/
+.skin-shadow-8{
+    position: absolute;
+    top: 952px;
+    left: 1158px;
+    width: 137px;
+    height: 75px;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-8 div{
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    width: 104px;
+    height: 16px;
+    transform: rotate(0deg);
+    background-color: var(--skin-shadow-base-color);
+}
+
+/*肌の影 9*/
+.skin-shadow-9{
+    position: absolute;
+    top: 952px;
+    left: 1158px;
+    width: 137px;
+    height: 107px;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-9 div{
+    position: absolute;
+    top: 33px;
+    left: 45px;
+    width: 43px;
+    height: 46px;
+    transform: rotate(0deg);
+    background-color: var(--skin-shadow-base-color);
+}
+
+/*肌の影 10*/
+.skin-shadow-10{
+    position: absolute;
+    top: 952px;
+    left: 1158px;
+    width: 137px;
+    height: 107px;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-10 div{
+    position: absolute;
+    top: 33px;
+    left: 84px;
+    width: 12px;
+    height: 19px;
+    transform: rotate(0deg);
+    background-color: var(--skin-shadow-base-color);
+}
+
+/*肌の影 11*/
+.skin-shadow-11{
+    position: absolute;
+    top: 952px;
+    left: 1158px;
+    width: 137px;
+    height: 107px;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-11 div{
+    position: absolute;
+    top: 36px;
+    left: 23px;
+    width: 30px;
+    height: 22px;
+    transform: rotate(0deg);
+    background-color: var(--skin-shadow-base-color);
+}
+
+/*肌の影 12*/
+.skin-shadow-12{
+    position: absolute;
+    top: 941px;
+    left: 1085px;
+    width: 137px;
+    height: 107px;
+    transform: rotate(0deg);
+    z-index: 30;
+}
+.skin-shadow-12 div{
+    position: absolute;
+    top: 2px;
+    left: 28px;
+    width: 59px;
+    height: 19px;
+    transform: rotate(34deg);
+    background-color: var(--skin-shadow-base-color);
+}
+
+/*耳 色塗り 1*/
+.ear-base-color-1{
+    position: absolute;
+    top: 191px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    border-radius: 50%;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-base-color-1 div{
+    position: absolute;
+    top: 39px;
+    left: 180px;
+    width: 319px;
+    height: 61px;
+    border-radius: 50%;
+    transform: rotate(3deg);
+    box-shadow: 1px 13px 0px 0px var(--ear-base-color);
+}
+
+/*耳 色塗り 2*/
+.ear-base-color-2{
+    position: absolute;
+    top: 189px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    border-radius: 50%;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-base-color-2 div{
+    position: absolute;
+    top: 39px;
+    left: 180px;
+    width: 319px;
+    height: 61px;
+    border-radius: 50%;
+    transform: rotate(-3deg);
+    box-shadow: 1px 13px 0px 0px var(--ear-base-color);
+}
+
+/*耳 色塗り 3*/
+.ear-base-color-3{
+    position: absolute;
+    top: 189px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-base-color-3 div{
+    position: absolute;
+    top: 61px;
+    left: 180px;
+    width: 337px;
+    height: 35px;
+    transform: rotate(-3deg);
+    background-color: var(--ear-base-color);
+}
+
+/*耳 色塗り 4*/
+.ear-base-color-4{
+    position: absolute;
+    top: 187px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-base-color-4 div{
+    position: absolute;
+    top: 69px;
+    left: 301px;
+    width: 198px;
+    height: 35px;
+    transform: rotate(-3deg);
+    background-color: var(--ear-base-color);
+}
+
+/*耳 色塗り 5*/
+.ear-base-color-5{
+    position: absolute;
+    top: 189px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-base-color-5 div{
+    position: absolute;
+    top: 41px;
+    left: 220px;
+    width: 198px;
+    height: 35px;
+    transform: rotate(-3deg);
+    background-color: var(--ear-base-color);
+}
+
+/*耳 色塗り 6*/
+.ear-base-color-6{
+    position: absolute;
+    top: 189px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-base-color-6 div{
+    position: absolute;
+    top: 26px;
+    left: 261px;
+    width: 83px;
+    height: 21px;
+    transform: rotate(-3deg);
+    background-color: var(--ear-base-color);
+}
+
+/*耳 影 色塗り 1*/
+.ear-shadow-color-1{
+    position: absolute;
+    top: 189px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    border-radius: 50%;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-shadow-color-1 div{
+    position: absolute;
+    top: 5px;
+    left: 296px;
+    width: 228px;
+    height: 51px;
+    border-radius: 50%;
+    transform: rotate(13deg);
+    box-shadow: 1px 13px 0px 0px var(--ear-shadow-color);
+}
+
+/*耳 影 色塗り 2*/
+.ear-shadow-color-2{
+    position: absolute;
+    top: 189px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    border-radius: 50%;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-shadow-color-2 div{
+    position: absolute;
+    top: 73px;
+    left: 455px;
+    width: 105px;
+    height: 36px;
+    border-radius: 50%;
+    transform: rotate(135deg);
+    box-shadow: 1px 8px 0px 0px var(--ear-shadow-color);
+}
+
+/*耳 影 色塗り 3*/
+.ear-shadow-color-3{
+    position: absolute;
+    top: 189px;
+    left: -70px;
+    width: 710px;
+    height: 115px;
+    border-radius: 50%;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-shadow-color-3 div{
+    position: absolute;
+    top: 55px;
+    left: 449px;
+    width: 109px;
+    height: 36px;
+    border-radius: 50%;
+    transform: rotate(-32deg);
+    box-shadow: 5px 6px 0px 0px var(--ear-shadow-color);
+}
+
+/*耳 影 色塗り 4*/
+.ear-shadow-color-4{
+    position: absolute;
+    top: 180px;
+    left: -70px;
+    width: 710px;
+    height: 64px;
+    border-radius: 50%;
+    transform: rotate(34deg);
+    z-index: 30;
+}
+.ear-shadow-color-4 div{
+    position: absolute;
+    top: -88px;
+    left: 457px;
+    width: 109px;
+    height: 311px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 11px 0px 0px 0px var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 5*/
+.ear-shadow-color-5{
+    position: absolute;
+    top: 295px;
+    left: -70px;
+    width: 710px;
+    height: 84px;
+    border-radius: 50%;
+    transform: rotate(-17deg);
+    z-index: 30;
+}
+.ear-shadow-color-5 div{
+    position: absolute;
+    top: -47px;
+    left: 541px;
+    width: 109px;
+    height: 171px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -16px 0px 0px 0px var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 6*/
+.ear-shadow-color-6{
+    position: absolute;
+    top: 295px;
+    left: -34px;
+    width: 710px;
+    height: 111px;
+    border-radius: 50%;
+    transform: rotate(-54deg);
+    z-index: 30;
+}
+.ear-shadow-color-6 div{
+    position: absolute;
+    top: -20px;
+    left: 399px;
+    width: 109px;
+    height: 171px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 19px 0px 0px 0px var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 7*/
+.ear-shadow-color-7{
+    position: absolute;
+    top: 166px;
+    left: 258px;
+    width: 117px;
+    height: 47px;
+    border-radius: 50%;
+    transform: rotate(9deg);
+    z-index: 30;
+}
+.ear-shadow-color-7 div{
+    position: absolute;
+    top: -13px;
+    left: -99px;
+    width: 326px;
+    height: 36px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    box-shadow: 2px 12px 0px 0px var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 8*/
+.ear-shadow-color-8{
+    position: absolute;
+    top: 167px;
+    left: 100px;
+    width: 211px;
+    height: 45px;
+    border-radius: 50%;
+    transform: rotate(9deg);
+    z-index: 30;
+}
+.ear-shadow-color-8 div{
+    position: absolute;
+    top: 19px;
+    left: -37px;
+    width: 263px;
+    height: 61px;
+    border-radius: 50%;
+    transform: rotate(-8deg);
+    box-shadow: -1px -14px 0px 0px var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 9*/
+.ear-shadow-color-9{
+    position: absolute;
+    top: 79px;
+    left: 44px;
+    width: 81px;
+    height: 150px;
+    border-radius: 50%;
+    transform: rotate(38deg);
+    z-index: 30;
+}
+.ear-shadow-color-9 div{
+    position: absolute;
+    top: 14px;
+    left: -37px;
+    width: 263px;
+    height: 61px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    box-shadow: -1px 6px 0px 0px var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 10*/
+.ear-shadow-color-10{
+    position: absolute;
+    top: 129px;
+    left: 48px;
+    width: 198px;
+    height: 70px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-10 div{
+    position: absolute;
+    top: -43px;
+    left: -43px;
+    width: 363px;
+    height: 61px;
+    border-radius: 50%;
+    transform: rotate(-11deg);
+    box-shadow: -1px 5px 0px 0px var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 11*/
+.ear-shadow-color-11{
+    position: absolute;
+    top: 129px;
+    left: 48px;
+    width: 198px;
+    height: 70px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-11 div{
+    position: absolute;
+    top: 33px;
+    left: 41px;
+    width: 59px;
+    height: 18px;
+    transform: rotate(-6deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 12*/
+.ear-shadow-color-12{
+    position: absolute;
+    top: 129px;
+    left: 48px;
+    width: 198px;
+    height: 70px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-12 div{
+    position: absolute;
+    top: 24px;
+    left: 95px;
+    width: 49px;
+    height: 15px;
+    transform: rotate(-10deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 13*/
+.ear-shadow-color-13{
+    position: absolute;
+    top: 129px;
+    left: 48px;
+    width: 198px;
+    height: 70px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-13 div{
+    position: absolute;
+    top: 46px;
+    left: 51px;
+    width: 38px;
+    height: 13px;
+    transform: rotate(-10deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 14*/
+.ear-shadow-color-14{
+    position: absolute;
+    top: 129px;
+    left: 48px;
+    width: 198px;
+    height: 70px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-14 div{
+    position: absolute;
+    top: 36px;
+    left: 12px;
+    width: 34px;
+    height: 11px;
+    transform: rotate(14deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 15*/
+.ear-shadow-color-15{
+    position: absolute;
+    top: 129px;
+    left: 48px;
+    width: 198px;
+    height: 70px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-15 div{
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 9px;
+    height: 10px;
+    transform: rotate(14deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 16*/
+.ear-shadow-color-16{
+    position: absolute;
+    top: 196px;
+    left: 262px;
+    width: 198px;
+    height: 70px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-16 div{
+    position: absolute;
+    top: 16px;
+    left: 35px;
+    width: 159px;
+    height: 38px;
+    transform: rotate(0deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 17*/
+.ear-shadow-color-17{
+    position: absolute;
+    top: 196px;
+    left: 262px;
+    width: 198px;
+    height: 70px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-17 div{
+    position: absolute;
+    top: 7px;
+    left: 77px;
+    width: 88px;
+    height: 13px;
+    transform: rotate(0deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 18*/
+.ear-shadow-color-18{
+    position: absolute;
+    top: 196px;
+    left: 252px;
+    width: 223px;
+    height: 70px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-18 div{
+    position: absolute;
+    top: 29px;
+    left: 10px;
+    width: 40px;
+    height: 23px;
+    transform: rotate(0deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 19*/
+.ear-shadow-color-19{
+    position: absolute;
+    top: 196px;
+    left: 252px;
+    width: 223px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-19 div{
+    position: absolute;
+    top: 53px;
+    left: 42px;
+    width: 166px;
+    height: 35px;
+    transform: rotate(0deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 20*/
+.ear-shadow-color-20{
+    position: absolute;
+    top: 196px;
+    left: 252px;
+    width: 223px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-20 div{
+    position: absolute;
+    top: 51px;
+    left: 9px;
+    width: 43px;
+    height: 19px;
+    transform: rotate(35deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 21*/
+.ear-shadow-color-21{
+    position: absolute;
+    top: 196px;
+    left: 252px;
+    width: 223px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-21 div{
+    position: absolute;
+    top: 44px;
+    left: 168px;
+    width: 36px;
+    height: 88px;
+    transform: rotate(0deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 22*/
+.ear-shadow-color-22{
+    position: absolute;
+    top: 196px;
+    left: 252px;
+    width: 223px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-22 div{
+    position: absolute;
+    top: 73px;
+    left: 60px;
+    width: 154px;
+    height: 43px;
+    transform: rotate(18deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 23*/
+.ear-shadow-color-23{
+    position: absolute;
+    top: 196px;
+    left: 252px;
+    width: 223px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-23 div{
+    position: absolute;
+    top: 72px;
+    left: 201px;
+    width: 22px;
+    height: 50px;
+    transform: rotate(0deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 24*/
+.ear-shadow-color-24{
+    position: absolute;
+    top: 196px;
+    left: 252px;
+    width: 223px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-24 div{
+    position: absolute;
+    top: 72px;
+    left: 201px;
+    width: 22px;
+    height: 50px;
+    transform: rotate(0deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 25*/
+.ear-shadow-color-25{
+    position: absolute;
+    top: 229px;
+    left: 252px;
+    width: 280px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-25 div{
+    position: absolute;
+    top: 99px;
+    left: 195px;
+    width: 11px;
+    height: 10px;
+    transform: rotate(0deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 26*/
+.ear-shadow-color-26{
+    position: absolute;
+    top: 229px;
+    left: 252px;
+    width: 280px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-26 div{
+    position: absolute;
+    top: 121px;
+    left: 121px;
+    width: 44px;
+    height: 12px;
+    transform: rotate(-14deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 27*/
+.ear-shadow-color-27{
+    position: absolute;
+    top: 229px;
+    left: 252px;
+    width: 280px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-27 div{
+    position: absolute;
+    top: 110px;
+    left: 155px;
+    width: 30px;
+    height: 14px;
+    transform: rotate(-14deg);
+    background-color: var( --ear-shadow-color);
+}
+
+/*耳 影 色塗り 28*/
+.ear-shadow-color-28{
+    position: absolute;
+    top: 229px;
+    left: 252px;
+    width: 280px;
+    height: 163px;
+    transform: rotate(23deg);
+    z-index: 30;
+}
+.ear-shadow-color-28 div{
+    position: absolute;
+    top: 110px;
+    left: 132px;
+    width: 30px;
+    height: 14px;
+    transform: rotate(-35deg);
+    background-color: var( --ear-shadow-color);
 }
 
 /* 線画+base color */
@@ -3086,7 +4088,7 @@ body{
     height: 627px;
     border-radius: 50%;
     transform: rotate(-33deg);
-    z-index:29;
+    z-index:31;
 }
 .hair-side-10 .line{
     position: absolute;
@@ -3096,7 +4098,7 @@ body{
     height: 554px;
     border-width: 5px;
     transform: rotate(98deg);
-    background-image: linear-gradient(79deg, var(--hair-base-color) 55%, rgba(0,0,0,0) 16%)
+    background-image: linear-gradient(188deg, var(--hair-base-color) 28%, rgba(0,0,0,0) 16%);
 }
 
 /*サイド髪 その11*/
@@ -3118,7 +4120,7 @@ body{
     height: 971px;
     border-width: 5px;
     transform: rotate(22deg);
-    box-shadow: -116px 63px 0px 0px var(--hair-base-color);
+    box-shadow: -92px 63px 0px 0px var(--hair-base-color);
 }
 
 /*サイド髪 その12*/
@@ -3203,7 +4205,6 @@ body{
     height: 495px;
     border-width: 5px;
     transform: rotate(-61deg);
-    background-image: linear-gradient(45deg, var(--hair-base-color) 24%, rgba(0,0,0,0) 16%);
 }
 
 /*サイド髪 その16*/
@@ -5103,6 +6104,7 @@ body{
     height: 577px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:30;
 }
 .clothes-11 .line{
     position: absolute;
