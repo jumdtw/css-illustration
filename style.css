@@ -1,4 +1,5 @@
 :root{
+    /*
     --hair-base-color: #ffe7ff;
     --hair-shadow-color:#b9a5d6;
     --hair-deepshadow-color:#ac8dd3;
@@ -13,6 +14,10 @@
     --clothes-base-color: #5c4656;
     --clothes-shadow-base-color: #3d2d38;
     --clothes-highlight-base-color: #fefffa;
+    */
+    --ribbon-shadow-color: green;
+    --frill-shadow-base-color: blue;
+    
 }
 
 body{
@@ -2642,6 +2647,28 @@ body{
     box-shadow: 48px 101px 0px 0px var( --hair-deepshadow-color);
 }
 
+/*髪の毛の影 109*/
+.hair-shadow-109{
+    position: absolute;
+    top: 691px;
+    left: 1512px;
+    width: 35px;
+    height: 158px;
+    border-radius: 50%;
+    transform: rotate(2deg);
+    z-index: 29;
+}
+.hair-shadow-109 div{
+    position: absolute;
+    top: -518px;
+    left: 10px;
+    width: 246px;
+    height: 678px;
+    border-radius: 50%;
+    transform: rotate(8deg);
+    box-shadow: -30px -30px 0px 0px var( --hair-deepshadow-color);
+}
+
 /*肌の影 1*/
 .skin-shadow-1{
     position: absolute;
@@ -4195,7 +4222,7 @@ body{
     height: 79px;
     border-radius: 50%;
     transform: rotate(0deg);
-    box-shadow: 0px -14px 0px 0px var( --ribbon-shadow-color);
+    box-shadow: 0px -14px 0px 0px var(--ribbon-shadow-color);
 }
 
 /*リボン 影 8*/
@@ -4217,7 +4244,7 @@ body{
     height: 711px;
     border-radius: 50%;
     transform: rotate(5deg);
-    box-shadow: 14px 7px 0px 0px var( --ribbon-shadow-color);
+    box-shadow: 14px 7px 0px 0px var(--ribbon-shadow-color);
 }
 
 /*リボン 影 9*/
@@ -4239,7 +4266,7 @@ body{
     height: 711px;
     border-radius: 50%;
     transform: rotate(-1deg);
-    box-shadow: 15px 7px 0px 0px var( --ribbon-shadow-color);
+    box-shadow: 15px 7px 0px 0px var(--ribbon-shadow-color);
 }
 
 /*リボン 影 10*/
@@ -4261,7 +4288,881 @@ body{
     height: 711px;
     border-radius: 50%;
     transform: rotate(14deg);
-    box-shadow: 15px 3px 0px 0px var( --ribbon-shadow-color);
+    box-shadow: 15px 3px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 11*/
+.ribbon-shadow-11{
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    width: 77px;
+    height: 193px;
+    border-radius: 50%;
+    transform: rotate(22deg);
+    z-index: 29;
+}
+.ribbon-shadow-11 div{
+    position: absolute;
+    top: 6px;
+    left: -314px;
+    width: 377px;
+    height: 711px;
+    border-radius: 50%;
+    transform: rotate(18deg);
+    box-shadow: 22px 12px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 12*/
+.ribbon-shadow-12{
+    position: absolute;
+    top: 202px;
+    left: 450px;
+    width: 77px;
+    height: 50px;
+    border-radius: 50%;
+    transform: rotate(22deg);
+    z-index: 29;
+}
+.ribbon-shadow-12 div{
+    position: absolute;
+    top: -144px;
+    left: 146px;
+    width: 377px;
+    height: 711px;
+    border-radius: 50%;
+    transform: rotate(-48deg);
+    box-shadow: 4px -7px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 13*/
+.ribbon-shadow-13{
+    position: absolute;
+    top: 248px;
+    left: 452px;
+    width: 77px;
+    height: 40px;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    z-index: 29;
+}
+.ribbon-shadow-13 div{
+    position: absolute;
+    top: -159px;
+    left: 139px;
+    width: 377px;
+    height: 711px;
+    border-radius: 50%;
+    transform: rotate(-48deg);
+    box-shadow: 1px -7px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 14*/
+.ribbon-shadow-14{
+    position: absolute;
+    top: 241px;
+    left: 460px;
+    width: 77px;
+    height: 47px;
+    border-radius: 50%;
+    transform: rotate(29deg);
+    z-index: 29;
+}
+.ribbon-shadow-14 div{
+    position: absolute;
+    top: -76px;
+    left: -258px;
+    width: 377px;
+    height: 222px;
+    border-radius: 50%;
+    transform: rotate(-84deg);
+    box-shadow: -6px 5px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 15*/
+.ribbon-shadow-15{
+    position: absolute;
+    top: 291px;
+    left: 460px;
+    width: 77px;
+    height: 39px;
+    border-radius: 50%;
+    transform: rotate(29deg);
+    z-index: 29;
+}
+.ribbon-shadow-15 div{
+    position: absolute;
+    top: -136px;
+    left: 13px;
+    width: 260px;
+    height: 222px;
+    border-radius: 50%;
+    transform: rotate(-156deg);
+    box-shadow: 1px -6px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 16*/
+.ribbon-shadow-16{
+    position: absolute;
+    top: 343px;
+    left: 460px;
+    width: 77px;
+    height: 59px;
+    border-radius: 50%;
+    transform: rotate(33deg);
+    z-index: 29;
+}
+.ribbon-shadow-16 div{
+    position: absolute;
+    top: -119px;
+    left: 44px;
+    width: 260px;
+    height: 212px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -19px 6px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 17*/
+.ribbon-shadow-17{
+    position: absolute;
+    top: 394px;
+    left: 438px;
+    width: 77px;
+    height: 59px;
+    border-radius: 50%;
+    transform: rotate(34deg);
+    z-index: 29;
+}
+.ribbon-shadow-17 div{
+    position: absolute;
+    top: -38px;
+    left: 29px;
+    width: 267px;
+    height: 212px;
+    border-radius: 50%;
+    transform: rotate(35deg);
+    box-shadow: -19px 6px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 18*/
+.ribbon-shadow-18{
+    position: absolute;
+    top: 420px;
+    left: 403px;
+    width: 77px;
+    height: 31px;
+    border-radius: 50%;
+    transform: rotate(34deg);
+    z-index: 29;
+}
+.ribbon-shadow-18 div{
+    position: absolute;
+    top: -46px;
+    left: 31px;
+    width: 267px;
+    height: 212px;
+    border-radius: 50%;
+    transform: rotate(35deg);
+    box-shadow: -3px 1px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 19*/
+.ribbon-shadow-19{
+    position: absolute;
+    top: 446px;
+    left: 402px;
+    width: 77px;
+    height: 43px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    z-index: 29;
+}
+.ribbon-shadow-19 div{
+    position: absolute;
+    top: -118px;
+    left: 31px;
+    width: 171px;
+    height: 290px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -3px 1px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 20*/
+.ribbon-shadow-20{
+    position: absolute;
+    top: 430px;
+    left: 423px;
+    width: 77px;
+    height: 28px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    z-index: 29;
+}
+.ribbon-shadow-20 div{
+    position: absolute;
+    top: -143px;
+    left: -128px;
+    width: 171px;
+    height: 290px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 5px 1px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 21*/
+.ribbon-shadow-21{
+    position: absolute;
+    top: 457px;
+    left: 333px;
+    width: 225px;
+    height: 75px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    z-index: 29;
+}
+.ribbon-shadow-21 div{
+    position: absolute;
+    top: -173px;
+    left: 29px;
+    width: 120px;
+    height: 206px;
+    border-radius: 50%;
+    transform: rotate(2deg);
+    box-shadow: 6px 1px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 22*/
+.ribbon-shadow-22{
+    position: absolute;
+    top: 406px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    border-radius: 50%;
+    transform: rotate(15deg);
+    z-index: 29;
+}
+.ribbon-shadow-22 div{
+    position: absolute;
+    top: -186px;
+    left: 104px;
+    width: 120px;
+    height: 306px;
+    border-radius: 50%;
+    transform: rotate(-5deg);
+    box-shadow: -15px -15px 0px 0px var(--ribbon-shadow-color);
+}
+
+/*リボン 影 23*/
+.ribbon-shadow-23{
+    position: absolute;
+    top: 406px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-23 div{
+    position: absolute;
+    top: 26px;
+    left: 53px;
+    width: 23px;
+    height: 26px;
+    transform: rotate(0deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 24*/
+.ribbon-shadow-24{
+    position: absolute;
+    top: 406px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-24 div{
+    position: absolute;
+    top: 36px;
+    left: 41px;
+    width: 32px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 25*/
+.ribbon-shadow-25{
+    position: absolute;
+    top: 406px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-25 div{
+    position: absolute;
+    top: 44px;
+    left: 39px;
+    width: 26px;
+    height: 21px;
+    transform: rotate(0deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 26*/
+.ribbon-shadow-26{
+    position: absolute;
+    top: 406px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-26 div{
+    position: absolute;
+    top: 61px;
+    left: 39px;
+    width: 8px;
+    height: 21px;
+    transform: rotate(0deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 27*/
+.ribbon-shadow-27{
+    position: absolute;
+    top: 406px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-27 div{
+    position: absolute;
+    top: 55px;
+    left: 46px;
+    width: 12px;
+    height: 25px;
+    transform: rotate(51deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 28*/
+.ribbon-shadow-28{
+    position: absolute;
+    top: 206px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-28 div{
+    position: absolute;
+    top: 36px;
+    left: 91px;
+    width: 22px;
+    height: 25px;
+    transform: rotate(0deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 29*/
+.ribbon-shadow-29{
+    position: absolute;
+    top: 206px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-29 div{
+    position: absolute;
+    top: 45px;
+    left: 94px;
+    width: 15px;
+    height: 24px;
+    transform: rotate(0deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 30*/
+.ribbon-shadow-30{
+    position: absolute;
+    top: 206px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-30 div{
+    position: absolute;
+    top: 66px;
+    left: 95px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(47deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 31*/
+.ribbon-shadow-31{
+    position: absolute;
+    top: 206px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-31 div{
+    position: absolute;
+    top: 41px;
+    left: 89px;
+    width: 10px;
+    height: 3px;
+    transform: rotate(0deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 32*/
+.ribbon-shadow-32{
+    position: absolute;
+    top: 206px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-32 div{
+    position: absolute;
+    top: 7px;
+    left: 111px;
+    width: 4px;
+    height: 49px;
+    transform: rotate(0deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 33*/
+.ribbon-shadow-33{
+    position: absolute;
+    top: 206px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-33 div{
+    position: absolute;
+    top: 7px;
+    left: 100px;
+    width: 10px;
+    height: 37px;
+    transform: rotate(35deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 34*/
+.ribbon-shadow-34{
+    position: absolute;
+    top: 206px;
+    left: 393px;
+    width: 225px;
+    height: 94px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-34 div{
+    position: absolute;
+    top: 19px;
+    left: 105px;
+    width: 10px;
+    height: 22px;
+    transform: rotate(35deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 35*/
+.ribbon-shadow-35{
+    position: absolute;
+    top: 961px;
+    left: 1265px;
+    width: 303px;
+    height: 184px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-35 div{
+    position: absolute;
+    top: 112px;
+    left: 226px;
+    width: 10px;
+    height: 38px;
+    transform: rotate(0deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*リボン 影 36*/
+.ribbon-shadow-36{
+    position: absolute;
+    top: 961px;
+    left: 1265px;
+    width: 303px;
+    height: 184px;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.ribbon-shadow-36 div{
+    position: absolute;
+    top: 131px;
+    left: 226px;
+    width: 10px;
+    height: 24px;
+    transform: rotate(-46deg);
+    background-color: var(--ribbon-shadow-color);
+}
+
+/*フリル 影 1*/
+.frill-shadow-1{
+    position: absolute;
+    top: 880px;
+    left: 1261px;
+    width: 303px;
+    height: 131px;
+    border-radius: 50%;
+    transform: rotate(-46deg);
+    z-index: 29;
+}
+.frill-shadow-1 div{
+    position: absolute;
+    top: -165px;
+    left: 53px;
+    width: 89px;
+    height: 345px;
+    border-radius: 50%;
+    transform: rotate(50deg);
+    box-shadow: 10px 0px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 2*/
+.frill-shadow-2{
+    position: absolute;
+    top: 1016px;
+    left: 1306px;
+    width: 73px;
+    height: 123px;
+    border-radius: 50%;
+    transform: rotate(-46deg);
+    z-index: 29;
+}
+.frill-shadow-2 div{
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    width: 89px;
+    height: 190px;
+    border-radius: 50%;
+    transform: rotate(77deg);
+    box-shadow: -13px 0px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 3*/
+.frill-shadow-3{
+    position: absolute;
+    top: 1101px;
+    left: 1303px;
+    width: 44px;
+    height: 53px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.frill-shadow-3 div{
+    position: absolute;
+    top: 18px;
+    left: -1px;
+    width: 69px;
+    height: 190px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -3px -56px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 4*/
+.frill-shadow-4{
+    position: absolute;
+    top: 791px;
+    left: 1425px;
+    width: 44px;
+    height: 101px;
+    border-radius: 50%;
+    transform: rotate(-14deg);
+    z-index: 29;
+}
+.frill-shadow-4 div{
+    position: absolute;
+    top: 18px;
+    left: 2px;
+    width: 69px;
+    height: 190px;
+    border-radius: 50%;
+    transform: rotate(27deg);
+    box-shadow: -3px -56px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 5*/
+.frill-shadow-5{
+    position: absolute;
+    top: 826px;
+    left: 1486px;
+    width: 44px;
+    height: 52px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.frill-shadow-5 div{
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    width: 69px;
+    height: 121px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -9px 24px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 6*/
+.frill-shadow-6{
+    position: absolute;
+    top: 865px;
+    left: 1465px;
+    width: 44px;
+    height: 112px;
+    border-radius: 50%;
+    transform: rotate(25deg);
+    z-index: 29;
+}
+.frill-shadow-6 div{
+    position: absolute;
+    top: -25px;
+    left: -52px;
+    width: 69px;
+    height: 228px;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    box-shadow: 8px -18px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 7*/
+.frill-shadow-7{
+    position: absolute;
+    top: 878px;
+    left: 1425px;
+    width: 142px;
+    height: 116px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 28;
+}
+.frill-shadow-7 div{
+    position: absolute;
+    top: 34px;
+    left: -114px;
+    width: 276px;
+    height: 79px;
+    border-radius: 50%;
+    transform: rotate(-97deg);
+    box-shadow: 24px 12px 0px 0px var(--frill-shadow-base-color);
+}
+
+/*フリル 影 8*/
+.frill-shadow-8{
+    position: absolute;
+    top: 961px;
+    left: 1480px;
+    width: 44px;
+    height: 124px;
+    border-radius: 50%;
+    transform: rotate(-17deg);
+    z-index: 29;
+}
+.frill-shadow-8 div{
+    position: absolute;
+    top: -25px;
+    left: -83px;
+    width: 97px;
+    height: 185px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 15px -4px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 9*/
+.frill-shadow-9{
+    position: absolute;
+    top: 1064px;
+    left: 1504px;
+    width: 44px;
+    height: 88px;
+    border-radius: 50%;
+    transform: rotate(-40deg);
+    z-index: 29;
+}
+.frill-shadow-9 div{
+    position: absolute;
+    top: -83px;
+    left: -71px;
+    width: 97px;
+    height: 185px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 11px -4px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 10*/
+.frill-shadow-10{
+    position: absolute;
+    top: 842px;
+    left: 1530px;
+    width: 44px;
+    height: 98px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 29;
+}
+.frill-shadow-10 div{
+    position: absolute;
+    top: -18px;
+    left: 18px;
+    width: 97px;
+    height: 185px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -5px -6px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 11*/
+.frill-shadow-11{
+    position: absolute;
+    top: 890px;
+    left: 1504px;
+    width: 31px;
+    height: 72px;
+    border-radius: 50%;
+    transform: rotate(-27deg);
+    z-index: 29;
+}
+.frill-shadow-11 div{
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    width: 112px;
+    height: 183px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -5px -2px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 12*/
+.frill-shadow-12{
+    position: absolute;
+    top: 890px;
+    left: 1504px;
+    width: 31px;
+    height: 72px;
+    border-radius: 50%;
+    transform: rotate(-27deg);
+    z-index: 29;
+}
+.frill-shadow-12 div{
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    width: 112px;
+    height: 183px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: -5px -2px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 13*/
+.frill-shadow-13{
+    position: absolute;
+    top: 929px;
+    left: 1514px;
+    width: 84px;
+    height: 72px;
+    border-radius: 50%;
+    transform: rotate(27deg);
+    z-index: 29;
+}
+.frill-shadow-13 div{
+    position: absolute;
+    top: -2px;
+    left: -16px;
+    width: 154px;
+    height: 58px;
+    border-radius: 50%;
+    transform: rotate(10deg);
+    box-shadow: -2px 3px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 14*/
+.frill-shadow-14{
+    position: absolute;
+    top: 901px;
+    left: 1499px;
+    width: 84px;
+    height: 44px;
+    border-radius: 50%;
+    transform: rotate(-32deg);
+    z-index: 29;
+}
+.frill-shadow-14 div{
+    position: absolute;
+    top: -48px;
+    left: 37px;
+    width: 86px;
+    height: 151px;
+    border-radius: 50%;
+    transform: rotate(-9deg);
+    box-shadow: -7px 0px 0px 0px var( --frill-shadow-base-color);
+}
+
+/*フリル 影 15*/
+.frill-shadow-15{
+    position: absolute;
+    top: 938px;
+    left: 1520px;
+    width: 84px;
+    height: 58px;
+    border-radius: 50%;
+    transform: rotate(-32deg);
+    z-index: 29;
+}
+.frill-shadow-15 div{
+    position: absolute;
+    top: -48px;
+    left: 38px;
+    width: 86px;
+    height: 151px;
+    border-radius: 50%;
+    transform: rotate(18deg);
+    box-shadow: -4px 0px 0px 0px var( --frill-shadow-base-color);
 }
 
 /* 線画+base color */
@@ -7746,7 +8647,7 @@ body{
     height: 36px;
     border-radius: 50%;
     transform: rotate(-25deg);
-    z-index:35;
+    z-index:28;
 }
 .frill-31 .line{
     position: absolute;
