@@ -1914,6 +1914,27 @@ body{
     transform: rotate(34deg);
     background-color: var(--eye-highlihgt);
 }
+
+/*フリル 色 1*/
+.frill-color-1{
+    position: absolute;
+    top: 611px;
+    left: 1306px;
+    width: 509px;
+    height: 540px;
+    transform: rotate(0deg);
+    z-index: 10;
+}
+.frill-color-1 div{
+    position: absolute;
+    top: 65px;
+    left: 61px;
+    width: 413px;
+    height: 458px;
+    transform: rotate(0deg);
+    background-color: var(--eye-highlihgt);
+}
+
 /* 影 */
 /*髪の毛の影 1*/
 .hair-shadow-1{
