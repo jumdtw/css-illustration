@@ -4,6 +4,8 @@
     --hair-deepshadow-color:#ac8dd3;
     --skin-base-color: #fff6e5;
     --skin-shadow-base-color: #fcbebf;
+    --mouse-gradient-dark:#ec7684;
+    --mouse-gradient-light:#fcada8;
     --ear-base-color: #ffd7df;
     --ear-shadow-color: #fe90b3;
     --ribbon-base-color: #61dae5;
@@ -13,6 +15,13 @@
     --clothes-base-color: #5c4656;
     --clothes-shadow-base-color: #3d2d38;
     --clothes-highlight-base-color: #fefffa;
+    --eye-line-shadow:#cdcceb;
+    --eye-gradient-dark:#49345d;
+    --eye-gradient-light:#fcd3fd;
+    --eye-top-light: #886cdd;
+    --eye-bottom-light: #fff2ff;
+    --eye-light-green:green;
+    --eye-highlihgt:white;
 }
 
 body{
@@ -181,7 +190,7 @@ body{
 }
 .hair-color-4 div{
     position: absolute;
-    top: 412px;
+    top: 405px;
     left: 783px;
     width: 403px;
     height: 68px;
@@ -560,6 +569,159 @@ body{
     transform: rotate(6deg);
     box-shadow: -27px 10px 0px 0px var( --hair-base-color);
 }
+
+/*髪 色塗り 23*/
+.hair-color-23{
+    position: absolute;
+    top: 78px;
+    left: -10px;
+    width: 569px;
+    height: 296px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 25;
+}
+.hair-color-23 div{
+    position: absolute;
+    top: -22px;
+    left: 83px;
+    width: 731px;
+    height: 216px;
+    border-radius: 50%;
+    transform: rotate(6deg);
+    box-shadow: 45px 79px 0px 0px var( --hair-base-color);
+}
+
+/*髪 色塗り 24*/
+.hair-color-24{
+    position: absolute;
+    top: 78px;
+    left: -10px;
+    width: 569px;
+    height: 296px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 25;
+}
+.hair-color-24 div{
+    position: absolute;
+    top: 158px;
+    left: -188px;
+    width: 731px;
+    height: 216px;
+    border-radius: 50%;
+    transform: rotate(11deg);
+    box-shadow: 153px -53px 0px 0px var( --hair-base-color);
+}
+
+/*髪 色塗り 25*/
+.hair-color-25{
+    position: absolute;
+    top: 78px;
+    left: -10px;
+    width: 569px;
+    height: 296px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 25;
+}
+.hair-color-25 div{
+    position: absolute;
+    top: 115px;
+    left: -85px;
+    width: 731px;
+    height: 216px;
+    border-radius: 50%;
+    transform: rotate(-9deg);
+    box-shadow: 153px -53px 0px 0px var( --hair-base-color);
+}
+
+/*髪 色塗り 26*/
+.hair-color-26{
+    position: absolute;
+    top: 78px;
+    left: -10px;
+    width: 569px;
+    height: 296px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 25;
+}
+.hair-color-26 div{
+    position: absolute;
+    top: -57px;
+    left: -116px;
+    width: 731px;
+    height: 216px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 124px 58px 0px 0px var( --hair-base-color);
+}
+
+/*髪 色塗り 27*/
+.hair-color-27{
+    position: absolute;
+    top: 78px;
+    left: -10px;
+    width: 569px;
+    height: 296px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 25;
+}
+.hair-color-27 div{
+    position: absolute;
+    top: 67px;
+    left: 125px;
+    width: 218px;
+    height: 98px;
+    border-radius: 50%;
+    transform: rotate(18deg);
+    box-shadow: 10px 58px 0px 0px var( --hair-base-color);
+}
+
+/*髪 色塗り 28*/
+.hair-color-28{
+    position: absolute;
+    top: 78px;
+    left: -10px;
+    width: 569px;
+    height: 296px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 25;
+}
+.hair-color-28 div{
+    position: absolute;
+    top: 142px;
+    left: 25px;
+    width: 34px;
+    height: 16px;
+    transform: rotate(18deg);
+    background-color: var( --hair-base-color);
+}
+
+/*髪 色塗り 29*/
+.hair-color-29{
+    position: absolute;
+    top: 78px;
+    left: -10px;
+    width: 569px;
+    height: 296px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    z-index: 25;
+}
+.hair-color-29 div{
+    position: absolute;
+    top: 40px;
+    left: 371px;
+    width: 34px;
+    height: 16px;
+    transform: rotate(18deg);
+    background-color: var( --hair-base-color);
+}
+
 
 /*服 色塗り 1*/
 .clothes-color-1{
@@ -1071,6 +1233,689 @@ body{
     box-shadow: 45px 0px 0px 0px var(--skin-base-color);
 }
 
+/*右眉 色*/
+.mayu-color-1{
+    position: absolute;
+    top: 238px;
+    left: 1134px;
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    transform: rotate(-16deg);
+    z-index: 40;
+}
+.mayu-color-1 div{
+    position: absolute;
+    top: 37px;
+    left: -33px;
+    width: 190px;
+    height: 147px;
+    border-width: 4px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 0px -7px 0px 0px var(--hair-base-color);
+}
+
+/*左眉 色*/
+.mayu-color-2{
+    position: absolute;
+    top: 410px;
+    left: 795px;
+    width: 112px;
+    height: 90px;
+    border-radius: 50%;
+    transform: rotate(-39deg);
+    z-index: 40;
+}
+.mayu-color-2 div{
+    position: absolute;
+    top: 37px;
+    left: -60px;
+    width: 231px;
+    height: 147px;
+    border-radius: 50%;
+    transform: rotate(2deg);
+    box-shadow: 0px -7px 0px 0px var(--hair-base-color);
+}
+
+/*目 色 1*/
+/*白目*/
+.eye-color-1{
+    position: absolute;
+    top: 577px;
+    left: 955px;
+    width: 112px;
+    height: 98px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 35;
+}
+.eye-color-1 div{
+    position: absolute;
+    top: -46px;
+    left: -9px;
+    width: 64px;
+    height: 264px;
+    border-radius: 50%;
+    transform: rotate(2deg);
+    box-shadow: 10px 0px 0px 0px var(--eye-highlihgt);
+}
+
+/*目 色 2*/
+.eye-color-2{
+    position: absolute;
+    top: 677px;
+    left: 892px;
+    width: 40px;
+    height: 98px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 35;
+}
+.eye-color-2 div{
+    position: absolute;
+    top: 7px;
+    left: -27px;
+    width: 124px;
+    height: 38px;
+    border-radius: 50%;
+    transform: rotate(11deg);
+    box-shadow: 0px 6px 0px 0px var(--eye-highlihgt);
+}
+
+/*目 色 3*/
+.eye-color-3{
+    position: absolute;
+    top: 677px;
+    left: 933px;
+    width: 25px;
+    height: 99px;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    z-index: 35;
+}
+.eye-color-3 div{
+    position: absolute;
+    top: 12px;
+    left: -27px;
+    width: 124px;
+    height: 38px;
+    border-radius: 50%;
+    transform: rotate(23deg);
+    box-shadow: 0px 6px 0px 0px var(--eye-highlihgt);
+}
+
+/*目 色 4*/
+.eye-color-4{
+    position: absolute;
+    top: 451px;
+    left: 1226px;
+    width: 39px;
+    height: 109px;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+    z-index: 35;
+}
+.eye-color-4 div{
+    position: absolute;
+    top: -35px;
+    left: 14px;
+    width: 124px;
+    height: 186px;
+    border-radius: 50%;
+    transform: rotate(-4deg);
+    box-shadow: -9px 0px 0px 0px var(--eye-highlihgt);
+}
+
+/*目 色 5*/
+.eye-color-5{
+    position: absolute;
+    top: 454px;
+    left: 1301px;
+    width: 81px;
+    height: 75px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 35;
+}
+.eye-color-5 div{
+    position: absolute;
+    top: -77px;
+    left: -58px;
+    width: 124px;
+    height: 150px;
+    border-radius: 50%;
+    transform: rotate(10deg);
+    box-shadow: 9px 6px 0px 0px var(--eye-highlihgt);
+}
+
+/*目 色 6*/
+.eye-color-6{
+    position: absolute;
+    top: 399px;
+    left: 1208px;
+    width: 175px;
+    height: 92px;
+    border-radius: 50%;
+    transform: rotate(-26deg);
+    z-index: 35;
+}
+.eye-color-6 div{
+    position: absolute;
+    top: 23px;
+    left: -21px;
+    width: 196px;
+    height: 150px;
+    border-radius: 50%;
+    transform: rotate(1deg);
+    box-shadow: 9px -21px 0px 0px var(--eye-line-shadow);
+}
+
+/*目 色 7*/
+.eye-color-7{
+    position: absolute;
+    top: 570px;
+    left: 831px;
+    width: 202px;
+    height: 133px;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+    z-index: 35;
+}
+.eye-color-7 div{
+    position: absolute;
+    top: 57px;
+    left: -21px;
+    width: 307px;
+    height: 150px;
+    border-radius: 50%;
+    transform: rotate(20deg);
+    box-shadow: -2px -21px 0px 0px var(--eye-line-shadow);
+}
+
+/*目 色 8*/
+.eye-color-8{
+    position: absolute;
+    top: 574px;
+    left: 818px;
+    width: 267px;
+    height: 136px;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+    z-index: 35;
+}
+.eye-color-8 div{
+    position: absolute;
+    top: -22px;
+    left: 66px;
+    width: 126px;
+    height: 169px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    background: linear-gradient(-178deg, var(--eye-gradient-dark) 56%, var(--eye-gradient-light));
+}
+
+/*目 色 9*/
+.eye-color-9{
+    position: absolute;
+    top: 412px;
+    left: 1151px;
+    width: 267px;
+    height: 130px;
+    border-radius: 50%;
+    transform: rotate(-24deg);
+    z-index: 35;
+}
+.eye-color-9 div{
+    position: absolute;
+    top: -29px;
+    left: 80px;
+    width: 107px;
+    height: 169px;
+    border-radius: 50%;
+    transform: rotate(7deg);
+    background: linear-gradient(-178deg, var(--eye-gradient-dark) 56%, var(--eye-gradient-light));
+}
+
+/*目 色 10*/
+.eye-color-10{
+    position: absolute;
+    top: 412px;
+    left: 1151px;
+    width: 267px;
+    height: 130px;
+    border-radius: 50%;
+    transform: rotate(-24deg);
+    z-index: 35;
+}
+.eye-color-10 div{
+    position: absolute;
+    top: 85px;
+    left: 94px;
+    width: 66px;
+    height: 57px;
+    border-radius: 50%;
+    transform: rotate(7deg);
+    opacity:0.3;
+    background: radial-gradient(var(--eye-bottom-light), var(--eye-gradient-light));
+}
+
+/*目 色 11*/
+.eye-color-11{
+    position: absolute;
+    top: 574px;
+    left: 818px;
+    width: 267px;
+    height: 136px;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+    z-index: 35;
+}
+.eye-color-11 div{
+    position: absolute;
+    top: 93px;
+    left: 90px;
+    width: 81px;
+    height: 54px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    opacity:0.3;
+    background: radial-gradient(var(--eye-bottom-light), var(--eye-gradient-light));
+}
+
+/*目 色 12*/
+.eye-color-12{
+    position: absolute;
+    top: 574px;
+    left: 818px;
+    width: 267px;
+    height: 136px;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+    z-index: 35;
+}
+.eye-color-12 div{
+    position: absolute;
+    top: 27px;
+    left: 145px;
+    width: 38px;
+    height: 26px;
+    border-radius: 50%;
+    transform: rotate(48deg);
+    opacity:0.6;
+    background: radial-gradient(var(--eye-top-light), var(--eye-gradient-dark));
+}
+
+/*目 色 13*/
+.eye-color-13{
+    position: absolute;
+    top: 412px;
+    left: 1151px;
+    width: 267px;
+    height: 130px;
+    border-radius: 50%;
+    transform: rotate(-24deg);
+    z-index: 35;
+}
+.eye-color-13 div{
+    position: absolute;
+    top: 17px;
+    left: 140px;
+    width: 37px;
+    height: 26px;
+    border-radius: 50%;
+    transform: rotate(44deg);
+    opacity:0.6;
+    background: radial-gradient(var(--eye-top-light), var(--eye-gradient-dark));
+}
+
+/*目 色 14*/
+.eye-color-14{
+    position: absolute;
+    top: 412px;
+    left: 1151px;
+    width: 267px;
+    height: 130px;
+    border-radius: 50%;
+    transform: rotate(-24deg);
+    z-index: 35;
+}
+.eye-color-14 div{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: rotate(44deg);
+    opacity: 0.3;
+    background: radial-gradient(var(--eye-highlihgt), var(--eye-light-green));
+}
+
+/*目 色 15*/
+.eye-color-15{
+    position: absolute;
+    top: 583px;
+    left: 810px;
+    width: 267px;
+    height: 130px;
+    border-radius: 50%;
+    transform: rotate(-24deg);
+    z-index: 35;
+}
+.eye-color-15 div{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: rotate(44deg);
+    opacity: 0.3;
+    background: radial-gradient(var(--eye-highlihgt), var(--eye-light-green));
+}
+
+/*目 色 16*/
+.eye-color-16{
+    position: absolute;
+    top: 594px;
+    left: 889px;
+    width: 87px;
+    height: 130px;
+    border-radius: 50%;
+    transform: rotate(-39deg);
+    z-index: 35;
+}
+.eye-color-16 div{
+    position: absolute;
+    top: 52px;
+    left: 1px;
+    width: 28px;
+    height: 20px;
+    border-radius: 50%;
+    transform: rotate(-12deg);
+    opacity: 0.3;
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 17*/
+.eye-color-17{
+    position: absolute;
+    top: 415px;
+    left: 1228px;
+    width: 87px;
+    height: 129px;
+    border-radius: 50%;
+    transform: rotate(-37deg);
+    z-index: 35;
+}
+.eye-color-17 div{
+    position: absolute;
+    top: 54px;
+    left: 1px;
+    width: 22px;
+    height: 16px;
+    border-radius: 50%;
+    transform: rotate(-12deg);
+    opacity: 0.3;
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 18*/
+.eye-color-18{
+    position: absolute;
+    top: 437px;
+    left: 1246px;
+    width: 87px;
+    height: 111px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 35;
+}
+.eye-color-18 div{
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 75px;
+    height: 85px;
+    border-radius: 50%;
+    transform: rotate(-14deg);
+    opacity: 0.5;
+    box-shadow: 2px 7px 0px 0px var(--eye-highlihgt)
+}
+
+/*目 色 19*/
+.eye-color-19{
+    position: absolute;
+    top: 600px;
+    left: 883px;
+    width: 142px;
+    height: 111px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 35;
+}
+.eye-color-19 div{
+    position: absolute;
+    top: 5px;
+    left: 29px;
+    width: 84px;
+    height: 85px;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    opacity: 0.5;
+    box-shadow: 1px 7px 0px 0px var(--eye-highlihgt);
+}
+
+/*目 色 20*/
+.eye-color-20{
+    position: absolute;
+    top: 600px;
+    left: 786px;
+    width: 142px;
+    height: 111px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 35;
+}
+.eye-color-20 div{
+    position: absolute;
+    top: 15px;
+    left: 71px;
+    width: 19px;
+    height: 31px;
+    transform: rotate(0deg);
+    background-color: var(--eye-line-shadow);
+}
+
+/*目 色 21*/
+.eye-color-21{
+    position: absolute;
+    top: 566px;
+    left: 786px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-21 div{
+    position: absolute;
+    top: 68px;
+    left: 77px;
+    width: 65px;
+    height: 75px;
+    transform: rotate(-50deg);
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 22*/
+.eye-color-22{
+    position: absolute;
+    top: 566px;
+    left: 786px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-22 div{
+    position: absolute;
+    top: 87px;
+    left: 79px;
+    width: 20px;
+    height: 75px;
+    transform: rotate(-50deg);
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 23*/
+.eye-color-23{
+    position: absolute;
+    top: 566px;
+    left: 786px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-23 div{
+    position: absolute;
+    top: 124px;
+    left: 126px;
+    width: 26px;
+    height: 38px;
+    transform: rotate(-78deg);
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 24*/
+.eye-color-24{
+    position: absolute;
+    top: 566px;
+    left: 786px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-24 div{
+    position: absolute;
+    top: 142px;
+    left: 153px;
+    width: 11px;
+    height: 16px;
+    transform: rotate(-78deg);
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 25*/
+.eye-color-25{
+    position: absolute;
+    top: 566px;
+    left: 786px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-25 div{
+    position: absolute;
+    top: 24px;
+    left: 204px;
+    width: 23px;
+    height: 43px;
+    transform: rotate(-1deg);
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 26*/
+.eye-color-26{
+    position: absolute;
+    top: 360px;
+    left: 1114px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-26 div{
+    position: absolute;
+    top: 55px;
+    left: 202px;
+    width: 58px;
+    height: 50px;
+    transform: rotate(-1deg);
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 27*/
+.eye-color-27{
+    position: absolute;
+    top: 360px;
+    left: 1114px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-27 div{
+    position: absolute;
+    top: 93px;
+    left: 243px;
+    width: 16px;
+    height: 18px;
+    transform: rotate(0deg);
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 28*/
+.eye-color-28{
+    position: absolute;
+    top: 360px;
+    left: 1114px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-28 div{
+    position: absolute;
+    top: 97px;
+    left: 221px;
+    width: 24px;
+    height: 60px;
+    transform: rotate(34deg);
+    background-color: var(--eye-highlihgt);
+}
+
+/*目 色 29*/
+.eye-color-29{
+    position: absolute;
+    top: 360px;
+    left: 1114px;
+    width: 316px;
+    height: 211px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 34;
+}
+.eye-color-29 div{
+    position: absolute;
+    top: 72px;
+    left: 221px;
+    width: 24px;
+    height: 60px;
+    transform: rotate(34deg);
+    background-color: var(--eye-highlihgt);
+}
 /* 影 */
 /*髪の毛の影 1*/
 .hair-shadow-1{
@@ -8294,6 +9139,7 @@ body{
     height: 37px;
     border-radius: 50%;
     transform: rotate(0deg);
+    z-index:26;
 }
 .ear-4 .line{
     position: absolute;
@@ -8314,6 +9160,7 @@ body{
     height: 37px;
     border-radius: 50%;
     transform: rotate(8deg);
+    z-index:26;
 }
 .ear-5 .line{
     position: absolute;
@@ -8335,6 +9182,7 @@ body{
     height: 65px;
     border-radius: 50%;
     transform: rotate(8deg);
+    z-index:26;
 }
 .ear-6 .line{
     position: absolute;
@@ -8805,7 +9653,7 @@ body{
     height: 55px;
     border-width: 3px;
     transform: rotate(-32deg);
-    background-color: white;
+    background-color: var(--eye-highlihgt);
 }
 
 /*左側の目の瞳孔 2*/
@@ -8973,7 +9821,7 @@ body{
     height: 53px;
     border-width: 3px;
     border-radius: 50%;
-    background-color:white;
+    background-color:var(--eye-highlihgt);
 }
 
 /*右側の目の瞳孔 2*/
@@ -9277,7 +10125,7 @@ body{
     height: 227px;
     border-width: 3px;
     transform: rotate(20deg);
-    background: linear-gradient(-149deg, #ec7684 56%, #fcada8);
+    background: linear-gradient(-149deg, var(--mouse-gradient-dark) 56%, var(--mouse-gradient-light));
 
 }
 
@@ -9301,6 +10149,7 @@ body{
     border-width: 4px;
     transform: rotate(0deg);
 }
+
 /*右眉 2*/
 .right-mayu-2{
     position: absolute;
